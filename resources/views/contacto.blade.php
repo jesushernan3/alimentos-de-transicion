@@ -12,11 +12,11 @@
       <h2 class="subtitle">
         Esto es Contacto
       </h2>
-      
     </div>
   </div>
 </section>
-       <main class="container">
-           <h1>contenido contacto</h1>
-       </main>
+
+<main class="container">
+    <h1>contenido contacto</h1>
+</main>
 @endsection

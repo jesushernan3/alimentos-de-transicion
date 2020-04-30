@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: Baloo;
+  src: url('../fonts/Baloo/BalooTamma2-Regular.ttf');
+}
+@font-face {
+  font-family: BalooBolder;
+  src: url('../fonts/Baloo/BalooTamma2-ExtraBold.ttf');
+}
 @font-face {
   font-family: Caveat;
-  src: url(../fonts/Caveat/Caveat-Regular.ttf);
+  src: url('../fonts/Caveat/Caveat-Regular.ttf');
 }
 @font-face {
   font-family: Amatic;
-  src: url(../fonts/Amatic/AmaticSC-Regular.ttf);
+  src: url('../fonts/Amatic/AmaticSC-Regular.ttf');
 }
 @font-face {
   font-family: Indie;
-  src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
+  src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf');
 }
 @font-face {
   font-family: Shadows;
-  src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+  src: url('../fonts/ShadowsIntoLight-Regular.ttf');
 }
 @font-face {
   font-family: Assistant;
-  src: url(../fonts/Assistant/Assistant-Regular.ttf);
+  src: url('../fonts/Assistant/Assistant-Regular.ttf');
 }
 /*================================
  GENERALES
@@ -26,7 +33,7 @@
 body {
   background-color: #fff;
   color: #636b6f;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Baloo', serif;
   font-weight: 200;
   height: 100vh;
   margin: 0;
@@ -61,7 +68,9 @@ header {
 }
 #menu-principal a {
   color: #636b6f;
-  font-family: 'Baloo Tamma 2', serif;
+  font-family: 'baloobolder', serif;
+  font-family: 1.1rem;
+  letter-spacing: 2px;
 }
 #menu-principal ul {
   display: flex;
@@ -82,6 +91,8 @@ header {
 ==================================*/
 main {
   min-height: 50vh;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 /*··························· Banner  */
 .banner .image {
@@ -106,6 +117,35 @@ main {
   color: #ddd;
   position: relative;
   z-index: 2;
+  font-family: Caveat;
+  text-align: center;
+  font-size: 2rem;
+}
+.hero .title {
+  font-size: 4rem;
+}
+.tile.has-text {
+	flex-direction: column;
+	align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.tile h3 {
+  font-family: 'BalooBolder';
+  font-weight: bolder;
+  font-size: 2.2rem;
+  color: #8eadbd;
+}
+
+/* Categoria - Producto
+==================================*/
+.productos h2 {
+	text-align: center;
+	font-size: 3rem;
+	font-family: caveat;
+}
+.productos .image {
+  margin: 0 10px;
 }
 
 /*================================
@@ -113,4 +153,28 @@ main {
 ==================================*/
 footer .container {
   min-height: 20vh;
+}
+.footer {
+  padding: unset;
+  text-align: center;
+}
+
+.footer-top,
+.footer-bottom {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top {
+  background-color: #5b6770;
+}
+
+.footer-bottom {
+  min-height: 40px;
+  font-weight: bold;
+}
+
+.footer .title {
+  color: #aaa;
 }
