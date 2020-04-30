@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: Caveat;
+  src: url(../fonts/Caveat/Caveat-Regular.ttf);
+}
+@font-face {
+  font-family: Amatic;
+  src: url(../fonts/Amatic/AmaticSC-Regular.ttf);
+}
+@font-face {
+  font-family: Indie;
+  src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+@font-face {
+  font-family: Shadows;
+  src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+  font-family: Assistant;
+  src: url(../fonts/Assistant/Assistant-Regular.ttf);
+}
+/*================================
+ GENERALES
+==================================*/
+
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+/*================================
+ CONTENIDO
+==================================*/
+
+/* Header
+==================================*/
+header {
+  display: flex;
+  /* background-color: #f0f0f0; */
+}
+#logo-principal {
+	display: flex;
+	align-items: center;
+	width: 25%;
+}
+#logo-principal a {
+  font-family: Caveat, serif;
+  color: #463d34;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+/*··························· Menu Principal  */
+#menu-principal {
+  display: flex;
+  min-height: 70px;
+  width: 75%;
+}
+#menu-principal a {
+  color: #636b6f;
+  font-family: 'Baloo Tamma 2', serif;
+}
+#menu-principal ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+}
+.links:not(:last-child) {
+	padding-right: 30px;
+}
+.links a {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* Main
+==================================*/
+main {
+  min-height: 50vh;
+}
+/*··························· Banner  */
+.banner .image {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hero.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 0;
+}
+.hero .title, .hero .subtitle {
+  color: #ddd;
+  position: relative;
+  z-index: 2;
+}
+
+/*================================
+ Footer
+==================================*/
+footer .container {
+  min-height: 20vh;
+}
