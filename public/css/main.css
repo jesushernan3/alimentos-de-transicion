@@ -11,20 +11,17 @@
   src: url('../fonts/Caveat/Caveat-Regular.ttf');
 }
 @font-face {
-  font-family: Amatic;
-  src: url('../fonts/Amatic/AmaticSC-Regular.ttf');
+  font-family: Noto;
+  src: url('../fonts/Noto/NotoSerif-Regular.ttf');
 }
-@font-face {
-  font-family: Indie;
-  src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf');
-}
-@font-face {
-  font-family: Shadows;
-  src: url('../fonts/ShadowsIntoLight-Regular.ttf');
-}
+
 @font-face {
   font-family: Assistant;
   src: url('../fonts/Assistant/Assistant-Regular.ttf');
+}
+@font-face {
+  font-family: AssistantBolder;
+  src: url('../fonts/Assistant/Assistant-ExtraBold.ttf');
 }
 /*================================
  GENERALES
@@ -32,13 +29,21 @@
 
 body {
   background-color: #fff;
-  color: #636b6f;
+  color: #777;
   font-family: 'Baloo', serif;
   font-weight: 200;
   height: 100vh;
   margin: 0;
 }
-
+h6 {
+  color: #f98b60;
+}
+.columns {
+  flex-wrap: wrap;
+}
+.column {
+	margin-bottom: 3rem;
+}
 /*================================
  CONTENIDO
 ==================================*/
@@ -67,9 +72,8 @@ header {
   width: 75%;
 }
 #menu-principal a {
-  color: #636b6f;
-  font-family: 'baloobolder', serif;
-  font-family: 1.1rem;
+  color: #463d34;
+  font-family: 'AssistantBolder', serif;
   letter-spacing: 2px;
 }
 #menu-principal ul {
@@ -82,7 +86,7 @@ header {
 	padding-right: 30px;
 }
 .links a {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -150,6 +154,10 @@ main {
   padding-top: 30px;
   padding-bottom: 100px;
 }
+.title, .subtitle {
+  font-family: Noto, serif;
+  color: #463d34;
+}
 /*··························· Banner  */
 .banner .image {
 	position: absolute;
@@ -166,19 +174,21 @@ main {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.2);
 	z-index: 0;
 }
 .hero .title, .hero .subtitle {
   color: #ddd;
   position: relative;
   z-index: 2;
-  font-family: Caveat;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .hero .title {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+.hero .subtitle {
+  color: #f98b60;
 }
 .tile.has-text {
 	flex-direction: column;
@@ -190,20 +200,66 @@ main {
   font-family: 'BalooBolder';
   font-weight: bolder;
   font-size: 2.2rem;
-  color: #8eadbd;
 }
 
 /* Categoria - Producto
 ==================================*/
+h2.after-title-icon {
+	font-size: 4rem;
+	display: flex;
+	color: #312a24;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	line-height: 0.8;
+}
+.after-title-icon::after {
+  content: url('/img/icons/aftertitle.webp');
+}
 .productos h2 {
 	text-align: center;
 	font-size: 3rem;
-	font-family: caveat;
+	font-family: Noto, serif;
 }
 .productos .image {
   margin: 0 10px;
 }
+.hero.is-medium .hero-body {
+	padding-bottom: 6rem;
+	padding-top: 6rem;
+}
+.card {
+  color: #777;
+}
+.card .title {
+	font-size: 1.3rem;
+}
+/* Vista - Producto
+==================================*/
+.precio {
+  color: #f98b60;
+  margin-bottom: 1rem;
+}
+/*··························· Producto - Tabs  */
+input[type="radio"], .tab-pane { display: none; }
+#pic:checked ~ .tab-content > .content-pic,
+#music:checked ~ .tab-content > .content-music,
+#video:checked ~ .tab-content > .content-video,
+#doc:checked ~ .tab-content > .content-doc {
+  display: block;
+}
 
+#pic:checked ~ .tabs li label[for=pic] a,
+#music:checked ~ .tabs li label[for=music] a,
+#video:checked ~ .tabs li label[for=video] a,
+#doc:checked ~ .tabs li label[for=doc] a
+ {
+	background-color: white;
+	border-color: #dbdbdb;
+  border-bottom-color: transparent !important;
+  border-bottom-color: #f98b60;
+	color: #f98b60;
+}
 /*================================
  Footer
 ==================================*/
@@ -223,12 +279,19 @@ footer .container {
   justify-content: center;
 }
 .footer-top {
-  background-color: #5b6770;
+  background-color: #463d34;
+}
+.footer-top .logo {
+  font-family: Caveat, serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ddd;
 }
 
 .footer-bottom {
   min-height: 40px;
-  font-weight: bold;
+  background-color: #26201b;
+  padding: 1.25rem;
 }
 
 .footer .title {
@@ -296,3 +359,11 @@ footer .container {
   /*··························· Footer  */
   
 }
+
+/* Colores
+  #9f25b0 - Violea Los Acrobatas
+  #f98b60 - Salmon desde Basil Template
+  #463d34 - Marron oscuro
+
+
+*/
