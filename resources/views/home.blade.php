@@ -35,7 +35,7 @@
     </div>
 
     <div class="hero">
-        <div class="tile">
+        <div class="tile reverse">
             <div class="tile">
                 <figure class="image is-half">
                     <img class="is-half" src="/img/tofu.webp" alt="">

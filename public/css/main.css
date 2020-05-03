@@ -87,6 +87,62 @@ header {
 	letter-spacing: 1px;
 }
 
+/*··························· Menu Mobile  */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #312a24;
+  position: absolute;
+  display: block;
+  content: "";
+  transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span:before {
+  top: -10px;
+}
+
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
+  top: 0;
+}
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
 /* Main
 ==================================*/
 main {
@@ -177,4 +233,66 @@ footer .container {
 
 .footer .title {
   color: #aaa;
+}
+
+/*================================
+ Media Queries
+==================================*/
+@media (max-width: 1152px /* Widescreen - Breakpoint */) {
+
+}
+@media (max-width: 960px /* Desktop - Breakpoint */) {
+
+}
+@media (max-width: 769px /* Table - Breakpoint */) {
+  .nav-mobile {
+    display: block;
+  }
+  #menu-principal {
+    padding-top: 70px;
+  }
+  #menu-principal ul {
+    display: none;
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    background-color: #fff;
+    height: 100vh;
+  }
+  #logo-principal {
+    float: left;
+    padding-left: 20px;
+    position: absolute;
+    z-index: 101;
+    width: unset;
+    height: 70px;
+  }
+  .links:not(:last-child) {
+    padding-right: unset;
+  }
+  .links {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  
+  /*··························· Contenido  769*/
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+    
+  /*··························· Categories  769*/
+  
+  /*··························· Footer 769  */
+}
+  
+@media (max-width: 474px /* Small Mobile - Breakpoint */) {
+  
+  /*··························· Nav Bar  */
+
+  /*··························· Contenido  */
+ 
+  /*··························· Footer  */
+  
 }

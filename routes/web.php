@@ -25,3 +25,12 @@ Route::get('/acerca', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+// Ruta a productos
+
+Route::get('/productos/medallones-garbanzos', function () {
+    return view('productos/medallones/medallones-garbanzos');
+});
+Route::get('/productos/medallones/garbanzocurry', function () {
+    return view('productos/medallones/garbanzos/01-garbanzo');
+});

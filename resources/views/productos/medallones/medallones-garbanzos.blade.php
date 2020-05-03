@@ -7,10 +7,9 @@
 			</figure>
 			<div class="container">
 			<h1 class="title">
-					Nuestros Productos
-			</h1>
+Medallones de Garbanzo			</h1>
 			<h2 class="subtitle">
-					AdT
+					Medallones
 			</h2>
 			</div>
 	</div>
@@ -22,9 +21,11 @@
     <section class="section productos">
       <h2>Medallones</h2>
       <div class="tile">
-        <figure class="image">
-        	<a href="/productos/medallones-garbanzos"><img class="is-rounded" src="/img/productos/medallones/medallones-lenteja.jpg" alt=""></a>
-        </figure>
+        <a href="/productos/medallones/garbanzocurry">
+					<figure class="image">
+						<img class="is-rounded" src="/img/productos/medallones/medallones-lenteja.jpg" alt="">
+					</figure>
+				</a>
         <figure class="image">
         	<img class="is-rounded" src="/img/productos/medallones/medallones-lenteja.jpg" alt="">
         </figure>
