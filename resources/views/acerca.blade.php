@@ -3,20 +3,15 @@
 <section class="hero banner is-medium">
 	<div class="hero-body">
 			<figure class="image is-fullwidth">
-			<img src="/img/home-banner-2.jpg">
+				<img src="/img/verduras-esparcidas.jpg">
 			</figure>
 			<div class="container">
-			<h1 class="title">
-					Alimentos de Transición
-			</h1>
-			<h2 class="subtitle">
-					Acerca
-			</h2>
+			<h1 class="title">Sobre Nosotros</h1>
 			</div>
 	</div>
 </section>
 <main class="container">
-		<p class="section has-text-centered is-size-4">Desde cómo comenzamos hasta nuestro proceso de hoy, descubra el amor del Garbanzo por la simplicidad y las comidas frescas.
+		<p class="section has-text-centered is-size-5">Desde cómo comenzamos hasta nuestro proceso de hoy, descubra el amor de Alimentos por Transición por la simplicidad y las comidas frescas.
 		</p>
 
 		<div class="hero">

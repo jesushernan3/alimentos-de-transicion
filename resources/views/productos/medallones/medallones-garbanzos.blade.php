@@ -23,7 +23,7 @@ Medallones de Garbanzo			</h1>
     	<div class="columns">
 
 			<div class="column is-one-quarter">
-				<a class="section" href="/productos/medallones/garbanzocurry">
+				<a class="section" href="/productos/medallones/garbanzoycurry">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -31,7 +31,27 @@ Medallones de Garbanzo			</h1>
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">de Garbanzo</h3>
+							<h3 class="title">con Curry</h3>
+							<div class="content">
+								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
+								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
+								ingredientes principales, que los puedes conseguir en...
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="column is-one-quarter">
+				<a class="section" href="/productos/medallones/garbanzoycalabaza">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="{{asset('img/productos/medallones/medallones-lenteja.jpg')}}" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<h3 class="title">con Calabaza</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
@@ -44,7 +64,7 @@ Medallones de Garbanzo			</h1>
 			</div>
 
 			<div class="column is-one-quarter">
-				<a class="section" href="crudas/02.crudas-ensalada_berro.php">
+				<a class="section" href="/productos/medallones/garbanzoybasmati">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -52,7 +72,7 @@ Medallones de Garbanzo			</h1>
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">de Lentejas</h3>
+							<h3 class="title">con Arroz Basmati</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
@@ -65,7 +85,7 @@ Medallones de Garbanzo			</h1>
 			</div>
 
 			<div class="column is-one-quarter">
-				<a class="section" href="crudas/02.crudas-ensalada_berro.php">
+				<a class="section" href="/productos/medallones/garbanyespecias">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -73,28 +93,7 @@ Medallones de Garbanzo			</h1>
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">de Arroz</h3>
-
-							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="column is-one-quarter">
-				<a class="section" href="crudas/02.crudas-ensalada_berro.php">
-					<div class="card">
-						<div class="card-image">
-							<figure class="image is-4by3">
-								<img src="{{asset('img/productos/medallones/medallones-lenteja.jpg')}}" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<h3 class="title">Especiales</h3>
+							<h3 class="title">con Especias</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la

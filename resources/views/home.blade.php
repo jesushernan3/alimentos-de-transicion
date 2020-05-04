@@ -1,9 +1,9 @@
 @extends('plantillas.plantilla')
 @section('contenido')
-<section class="hero banner is-medium">
+<section class="hero banner is-large">
     <div class="hero-body">
         <figure class="image is-fullwidth">
-        <img src="/img/home-banner-2.jpg">
+            <img src="/img/main-hero-home.jpg">
         </figure>
         <div class="container">
         <h1 class="title">
@@ -22,7 +22,7 @@
     <div class="hero">
         <div class="tile">
             <div class="tile has-text">
-                <h3>ENRAIZADO EN PATRIMONIO</h3>
+                <h3>Enraizado en el Patrimonio</h3>
                     <p>Nos atenemos a los estándares alimentarios desarrollados hace mucho tiempo en el Mediterráneo. Mediante el uso de antiguas recetas familiares e ingredientes inalterados, nuestras comidas se destacan de una manera pura y auténtica.
                     </p>
             </div>

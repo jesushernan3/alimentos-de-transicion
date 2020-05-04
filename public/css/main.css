@@ -178,7 +178,7 @@ main {
 	z-index: 0;
 }
 .hero .title, .hero .subtitle {
-  color: #ddd;
+  color: #fff;
   position: relative;
   z-index: 2;
   text-align: center;
@@ -197,9 +197,10 @@ main {
   padding: 30px;
 }
 .tile h3 {
-  font-family: 'BalooBolder';
-  font-weight: bolder;
-  font-size: 2.2rem;
+  font-family: Caveat, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #463d34;
 }
 
 /* Categoria - Producto
@@ -221,9 +222,9 @@ h2.after-title-icon {
 	font-size: 3rem;
 	font-family: Noto, serif;
 }
-.productos .image {
+/* .productos .image {
   margin: 0 10px;
-}
+} */
 .hero.is-medium .hero-body {
 	padding-bottom: 6rem;
 	padding-top: 6rem;
