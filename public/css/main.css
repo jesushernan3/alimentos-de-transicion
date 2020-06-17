@@ -38,11 +38,14 @@ body {
 h6 {
   color: #f98b60;
 }
-.columns {
+main .columns {
   flex-wrap: wrap;
 }
-.column {
+main .column {
 	margin-bottom: 3rem;
+}
+a:hover {
+  color: #f98b60;
 }
 /*================================
  CONTENIDO
@@ -59,11 +62,12 @@ header {
 	align-items: center;
 	width: 25%;
 }
+#logo-principal img {
+	width: 60%;
+}
 #logo-principal a {
-  font-family: Caveat, serif;
-  color: #463d34;
-  font-size: 1.8rem;
-  font-weight: bold;
+	line-height: unset;
+	padding: 1rem 0;
 }
 /*··························· Menu Principal  */
 #menu-principal {
@@ -89,6 +93,13 @@ header {
 	font-size: 1rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+a {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 /*··························· Menu Mobile  */
@@ -158,6 +169,7 @@ main {
   font-family: Noto, serif;
   color: #463d34;
 }
+
 /*··························· Banner  */
 .banner .image {
 	position: absolute;
@@ -193,13 +205,19 @@ main {
 .tile.has-text {
 	flex-direction: column;
 	align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 30px;
+}
+.tile.has-text b {
+  font-weight: bold;
+}
+.tile.has-text ul li ol {
+  margin-left: 2rem;
 }
 .tile h3 {
   font-family: Caveat, serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #463d34;
 }
 
@@ -216,6 +234,7 @@ h2.after-title-icon {
 }
 .after-title-icon::after {
   content: url('/img/icons/aftertitle.webp');
+  margin-top: 20px;
 }
 .productos h2 {
 	text-align: center;
@@ -243,18 +262,15 @@ h2.after-title-icon {
 }
 /*··························· Producto - Tabs  */
 input[type="radio"], .tab-pane { display: none; }
-#pic:checked ~ .tab-content > .content-pic,
-#music:checked ~ .tab-content > .content-music,
-#video:checked ~ .tab-content > .content-video,
-#doc:checked ~ .tab-content > .content-doc {
+#descripcion:checked ~ .tab-content > .content-descripcion,
+#ingredientes:checked ~ .tab-content > .content-ingredientes,
+#info:checked ~ .tab-content > .content-info {
   display: block;
 }
 
-#pic:checked ~ .tabs li label[for=pic] a,
-#music:checked ~ .tabs li label[for=music] a,
-#video:checked ~ .tabs li label[for=video] a,
-#doc:checked ~ .tabs li label[for=doc] a
- {
+#descripcion:checked ~ .tabs li label[for=descripcion] a,
+#ingredientes:checked ~ .tabs li label[for=ingredientes] a,
+#info:checked ~ .tabs li label[for=info] a {
 	background-color: white;
 	border-color: #dbdbdb;
   border-bottom-color: transparent !important;
@@ -269,18 +285,15 @@ footer .container {
 }
 .footer {
   padding: unset;
-  text-align: center;
 }
 
-.footer-top,
-.footer-bottom {
+.footer-top {
   min-height: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .footer-top {
-  background-color: #463d34;
+  background-color: #312a24;
 }
 .footer-top .logo {
   font-family: Caveat, serif;
@@ -288,29 +301,89 @@ footer .container {
   font-weight: bold;
   color: #ddd;
 }
-
+.footer-bottom .column.is-half.left {
+	display: flex;
+	align-items: center;
+}
 .footer-bottom {
   min-height: 40px;
   background-color: #26201b;
   padding: 1.25rem;
+  font-size: 0.8rem;
+  letter-spacing: .5px;
 }
-
+.footer-bottom a {
+  color: #ddd;
+  -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.footer-bottom a:hover {
+  color: #f98b60;
+}
+.footer-bottom .right {
+  text-align: right;
+}
+.footer-bottom .right a {
+  display: block;
+  font-size: 1.1rem;
+  width: 2.5rem;
+	height: 2.5rem;
+	background-color: #312a24;
+	text-align: center;
+  border-radius: 50%;
+  line-height: 2.7rem;
+}
+.footer-bottom .right li {
+	display: inline-block;
+	
+}
 .footer .title {
   color: #aaa;
+}
+.footer-bottom .left span {
+	margin-left: 5px;
 }
 
 /*================================
  Media Queries
 ==================================*/
-@media (max-width: 1152px /* Widescreen - Breakpoint */) {
-
+@media (max-width: 1178px /* Widescreen - Breakpoint */) {
+  .hero .image img {
+    width: unset;
+    max-width: unset;
+  }
+  .hero.banner .image {
+    top: unset;
+    bottom: 0;
+    left: 0;
+  }
+  .tile > .image img {
+    max-width: 100%;
+  }
+  .tile .image {
+	align-self: center;
+}
+header.container {
+  width: max-content;
+}
 }
 @media (max-width: 960px /* Desktop - Breakpoint */) {
-
+  .columns {
+    display: flex;
+  }
+  main .hero {
+	margin-bottom: 4rem;
+}
 }
 @media (max-width: 769px /* Table - Breakpoint */) {
   .nav-mobile {
     display: block;
+  }
+  header.container {
+    width: unset;
   }
   #menu-principal {
     padding-top: 70px;
@@ -345,7 +418,13 @@ footer .container {
     display: flex;
     flex-direction: column-reverse;
   }
-    
+  .hero .title {
+	font-size: 1.9rem;
+  }
+  .productos h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }    
   /*··························· Categories  769*/
   
   /*··························· Footer 769  */
@@ -356,6 +435,32 @@ footer .container {
   /*··························· Nav Bar  */
 
   /*··························· Contenido  */
+  .column.is-half-mobile {
+    width: 100%;
+  }
+  .tabs.is-boxed a, .tabs a {
+    color: 999px;
+  }
+  .tabs ul {
+    display: block;
+    border: none;
+  }
+  #descripcion:checked ~ .tabs li label[for="descripcion"] a, #ingredientes:checked ~ .tabs li label[for="ingredientes"] a, 
+  #info:checked ~ .tabs li label[for="info"] a {
+  border: unset;
+  background-color: #eee;
+}
+  #descripcion:checked ~ .tab-content > .content-descripcion, #ingredientes:checked ~ .tab-content > .content-ingredientes, 
+  #info:checked ~ .tab-content > .content-info {
+	display: block;
+	/* border-left: 1px solid #aaa; */
+	/* border-right: 1px solid #aaa; */
+  padding: 10px;
+  background-color: #eee;
+}
+.productos h2 {
+    font-size: 2rem;
+  } 
  
   /*··························· Footer  */
   

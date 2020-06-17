@@ -13,7 +13,7 @@
 	</div>
 </section>
 <main class="container">
-		<p class="section has-text-centered is-size-5">En Alimentos de Transición, todos nuestros alimentos se elaboran frescos todos los días con recetas auténticas, ingredientes simples y un estilo de vida simple en mente. Desde un plato, hasta una Pita rellena o una envoltura de Laffa, hasta una ensalada perfectamente vestida, hay cientos de formas de personalizar su comida.
+		<p class="section has-text-centered is-size-5">En Alimentos de Transición, todos nuestros alimentos se elaboran frescos todos los días con recetas auténticas, ingredientes simples y un estilo de vida simple en mente.
     </p>
     
 	<section class="section productos">
@@ -22,7 +22,7 @@
 		
 		<div class="columns">
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="productos/medallones-garbanzos">
 					<div class="card">
 						<div class="card-image">
@@ -43,7 +43,7 @@
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="productos/medallones-lentejas">
 					<div class="card">
 						<div class="card-image">
@@ -64,7 +64,7 @@
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="productos/medallones-arroz">
 					<div class="card">
 						<div class="card-image">
@@ -85,7 +85,7 @@
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="productos/medallones-variedades">
 					<div class="card">
 						<div class="card-image">

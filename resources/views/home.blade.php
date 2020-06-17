@@ -10,21 +10,31 @@
             Alimentos de Transición
         </h1>
         <h2 class="subtitle">
-            Bienvenidos
+            sin dogmas
         </h2>
         </div>
     </div>
 </section>
 <main class="container">
-    <p class="section has-text-centered is-size-4">Nuestra comida no solo proviene de la región más saludable del mundo, sino que se basa en comidas tradicionales que no han cambiado en miles de años.
-    </p>
 
     <div class="hero">
         <div class="tile">
             <div class="tile has-text">
-                <h3>Enraizado en el Patrimonio</h3>
-                    <p>Nos atenemos a los estándares alimentarios desarrollados hace mucho tiempo en el Mediterráneo. Mediante el uso de antiguas recetas familiares e ingredientes inalterados, nuestras comidas se destacan de una manera pura y auténtica.
-                    </p>
+                <h3>Siginficado</h3>
+                <ul>
+                    <li><b>"Alimento"</b> Del latin. <em>alimentum</em>
+                        <ol>
+                            <li>Conjunto de sustancias que los seres vivos comen o beben para subsistir. </li>
+                            <li>Cada una de las sustancias que un ser vivo toma o recibe para su nutrición</li>
+                        </ol>
+                    </li>
+                    <li><b>"Transición"</b> Del latin. <em>transitio, -ōnis.</em>
+                        <ol>
+                            <li>Acción y efecto de pasar de un modo de ser o estar a otro distinto.</li>
+                            <li>Cambio repentino de tono y expresión.</li>
+                        </ol>
+                    </li>
+                </ul>
             </div>
             <div class="tile">
                 <figure class="image is-half">
@@ -43,10 +53,9 @@
             </div>
             <div class="tile">
             <div class="tile has-text">
-                <h3>SIMPLE SIEMPRE HA SIDO EL MEJOR</h3>
-                    <p>
-                        Nuestra comida se crea con ingredientes básicos que se obtienen de manera responsable directamente de la naturaleza. Nuestros sabores únicos cultivados en la tierra, como el aceite de oliva, el pimentón y el hummus, hacen que cada plato sea simple, limpio y bueno para usted.
-                    </p>
+                <h3>Sin dogmas</h3>
+                <p>Proponemos desde ya un cambio también en la forma de denomir cosas, tendencia, formas de vida. proponemos hacerlas más simple. Todos nos vimos atrapados en algún momento en una defición, por eso, estamos siempre en transición.</p>
+                
             </div>
             </div>
         </div>
@@ -55,9 +64,9 @@
     <div class="hero">
         <div class="tile">
             <div class="tile has-text">
-                <h3>UN EQUILIBRIO PERFECTO</h3>
+                <h3>Simple siempre es lo mejor.</h3>
                     <p>
-                        Nos esforzamos por hacer de cada plato de Garbanzo una mezcla equilibrada de sabor y nutrición para garantizar que cada visita le brinde algo fresco, simple y diferente.
+                        Nuestra comida se crea con ingredientes básicos que se obtienen de manera responsable directamente de la naturaleza. Tratamos siempre de elejir proveedores que van hacía otra forma de relación con el entorno.
                     </p>
             </div>
             <div class="tile">

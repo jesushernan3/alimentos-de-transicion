@@ -6,23 +6,21 @@
 				<img src="/img/banner-gral.jpg">
 			</figure>
 			<div class="container">
-			<h1 class="title">
-Medallones de Garbanzo			</h1>
-			<h2 class="subtitle">
-					Medallones
-			</h2>
+				<h1 class="title">Medallones de Garbanzo</h1>
+				<h2 class="subtitle">Medallones</h2>
 			</div>
 	</div>
 </section>
 <main class="container">
-		<p class="section has-text-centered is-size-5">En Alimentos de Transición, todos nuestros alimentos se elaboran frescos todos los días con recetas auténticas, ingredientes simples y un estilo de vida simple en mente. Desde un plato, hasta una Pita rellena o una envoltura de Laffa, hasta una ensalada perfectamente vestida, hay cientos de formas de personalizar su comida.
+		<p class="section has-text-centered is-size-5">
+			Toda la gama de variedades de Garbanzos
     </p>
     
     <section class="section productos">
       <h2 class="after-title-icon">Variaciones de Garbanzos</h2>
     	<div class="columns">
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="/productos/medallones/garbanzoycurry">
 					<div class="card">
 						<div class="card-image">
@@ -42,7 +40,7 @@ Medallones de Garbanzo			</h1>
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="/productos/medallones/garbanzoycalabaza">
 					<div class="card">
 						<div class="card-image">
@@ -63,7 +61,7 @@ Medallones de Garbanzo			</h1>
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="/productos/medallones/garbanzoybasmati">
 					<div class="card">
 						<div class="card-image">
@@ -84,7 +82,7 @@ Medallones de Garbanzo			</h1>
 				</a>
 			</div>
 
-			<div class="column is-one-quarter">
+			<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="/productos/medallones/garbanyespecias">
 					<div class="card">
 						<div class="card-image">

@@ -7,11 +7,12 @@
         <title>AdT</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/bulma.css">
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/LineIcons.css">
+        <link rel="stylesheet" href="/css/line-awesome.min.css">
     </head>
     <body>
       @include('plantillas.parciales.header')

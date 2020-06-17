@@ -1,0 +1,8 @@
+...::: Modelo de Datos - Prodcutos :::...
+
+• id
+• título de categoria, "name"(varchar255)
+• etiqueta, "slug" (varchar255)
+• descripcion (varchar255)
+• creado en (created_at, data)
+• actualizado en (updated_at, date)

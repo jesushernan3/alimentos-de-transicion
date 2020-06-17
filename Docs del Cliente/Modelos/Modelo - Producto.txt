@@ -1,0 +1,14 @@
+...::: Modelo de Datos - Prodcutos :::...
+
+• id
+• id de categoria
+• título de producto, "name"(varchar255)
+• precio(decimal,12.2)
+• resumen, "extract" (varchar255)
+• descripcion (varchar255)
+• img (ruta de imagen, varchar255)
+• visible (int)
+• codigo de producto(varchar25)(M.A.)
+• detalles de producto, lista (varchar255)(M.A.)
+• creado en (created_at, data)
+• actualizado en (updated_at, date)

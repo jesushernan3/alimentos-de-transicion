@@ -17,9 +17,10 @@
 		<div class="hero">
 			<div class="tile">
 				<div class="tile has-text">
-					<h3>NUESTRA HERENCIA</h3>
+					<h3>Herencia</h3>
 						<p>
-							El sabor de la cocina mediterránea era demasiado bueno para mantenerse oculto en todo el mundo. Armado con recetas de su familia, nuestro fundador se propuso llevar esos sabores auténticos hasta América. Abrimos nuestro primer restaurante en Colorado, donde nuestra comida fresca encaja perfectamente con el estilo de vida simple pero aventurero. Desde su apertura, hemos estado sirviendo a nuestros huéspedes ese sabor auténtico, saludable y sin complicaciones por el que Garbanzo es conocido.</p>
+							Desarrollar
+						</p>
 				</div>
 				<div class="tile">
 					<figure class="image is-half">
@@ -30,7 +31,7 @@
 		</div>
 
 		<div class="hero">
-			<div class="tile">
+			<div class="tile reverse">
 				<div class="tile">
 					<figure class="image is-half">
 						<img class="is-half" src="/img/tofu.webp" alt="">
@@ -38,9 +39,10 @@
 				</div>
 				<div class="tile">
 				<div class="tile has-text">
-					<h3>LA EXPERIENCIA</h3>
+					<h3>Experiencia</h3>
 						<p>
-							Preparamos nuestra comida de manera tradicional y diaria, a menudo justo en frente de usted, para que sepa que está obteniendo la mejor comida de calidad que existe. Nuestro proceso de pedido es tan simple como nuestros ingredientes. Le llevamos a través de cada paso, permitiéndole personalizar su plato con infinitas posibilidades y combinaciones de proteínas saladas, verduras saludables y salsas únicas. Nos encanta cuidarlo y hemos diseñado un ambiente familiar en el que puede celebrar el evento de comer.</p>
+							en Desarrollo
+						</p>
 				</div>
 				</div>
 			</div>
@@ -49,10 +51,10 @@
 		<div class="hero">
 			<div class="tile">
 				<div class="tile has-text">
-					<h3>NUESTROS INVITADOS
+					<h3>Otro Titulo
 					</h3>
 						<p>
-							Queremos que nuestros huéspedes amen nuestra comida tanto como nosotros. Es por eso que ponemos el máximo valor en asegurarnos de que cada una de las experiencias en Garbanzo sea excelente. Incluso creamos un programa de recompensas simple para nuestros V.I.B.s (frijoles muy importantes) para ganar puntos con cada compra.
+							En desarrollo
 						</p>
 				</div>
 				<div class="tile">
