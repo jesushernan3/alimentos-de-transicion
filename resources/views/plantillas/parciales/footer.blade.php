@@ -8,8 +8,8 @@
   </div>
   <div class="footer-bottom">
     <div class="columns">
-      <div class="column is-half left"><a href="/">alimentos de transición</a> <span>©2020 - todos los derechos reservados</span></div>
-      <div class="column is-half right">
+      <div class="column is-three-fifths left"><a href="/">alimentos de transición</a> <span>©2020 - todos los derechos reservados</span></div>
+      <div class="column right">
         <ul>
           <li><a href="#"><i class="lni lni-youtube"></i></a></li>
           <li><a href="#"><i class="lni lni-facebook-oval"></i></a></li>

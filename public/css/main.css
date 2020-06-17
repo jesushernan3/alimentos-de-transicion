@@ -301,9 +301,10 @@ footer .container {
   font-weight: bold;
   color: #ddd;
 }
-.footer-bottom .column.is-half.left {
+.footer-bottom .column.left {
 	display: flex;
-	align-items: center;
+  align-items: center;
+  flex: auto;
 }
 .footer-bottom {
   min-height: 40px;
@@ -334,7 +335,7 @@ footer .container {
 	background-color: #312a24;
 	text-align: center;
   border-radius: 50%;
-  line-height: 2.7rem;
+  line-height: 3rem;
 }
 .footer-bottom .right li {
 	display: inline-block;
@@ -428,6 +429,15 @@ header.container {
   /*··························· Categories  769*/
   
   /*··························· Footer 769  */
+  .footer-bottom .columns {
+    flex-direction: column-reverse;
+  }
+  .footer-bottom .left {
+    justify-content: center;
+  }
+  .footer-bottom .right {
+    text-align: center;
+  }
 }
   
 @media (max-width: 474px /* Small Mobile - Breakpoint */) {
@@ -463,6 +473,9 @@ header.container {
   } 
  
   /*··························· Footer  */
+  .footer-bottom .column.left {
+    flex-direction: column;
+  }
   
 }
 
