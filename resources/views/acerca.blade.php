@@ -19,12 +19,12 @@
 				<div class="tile has-text">
 					<h3>Herencia</h3>
 						<p>
-							Desarrollar
+							A través de generaciones hemos estado construyendo y desglosando una forma optima de transformar la alimentación. Armado con recetas familiares, nos proponemos llevar al alcance de todos nuestra visión de alimentos. Desde su apertura, hemos estado sirviendo a nuestros huéspedes ese sabor auténtico, saludable y sin complicaciones.
 						</p>
 				</div>
 				<div class="tile">
 					<figure class="image is-half">
-						<img class="is-half" src="/img/tofu.webp" alt="">
+						<img class="is-half" src="/img/acerca/philosophy-1-heritage.jpg" alt="">
 					</figure>
 				</div>
 			</div>
@@ -34,14 +34,14 @@
 			<div class="tile reverse">
 				<div class="tile">
 					<figure class="image is-half">
-						<img class="is-half" src="/img/tofu.webp" alt="">
+						<img class="is-half" src="/img/acerca/philosophy-2-simple.jpg" alt="">
 					</figure>
 				</div>
 				<div class="tile">
 				<div class="tile has-text">
 					<h3>Experiencia</h3>
 						<p>
-							en Desarrollo
+							Preparamos nuestra comida tradicional y diariamente, para que sepa que está obteniendo la mejor comida de calidad que existe. Nuestro proceso de pedido es tan simple como nuestros ingredientes. Le llevamos a través de cada paso, permitiéndole personalizar su plato con infinitas posibilidades y combinaciones de proteínas saladas, verduras saludables y salsas únicas. Nos encanta cuidarlo y hemos diseñado un ambiente familiar en el que puede celebrar el evento de comer.
 						</p>
 				</div>
 				</div>
@@ -54,12 +54,13 @@
 					<h3>Otro Titulo
 					</h3>
 						<p>
-							En desarrollo
+							Queremos que nuestros huéspedes amen nuestra comida tanto como nosotros. Es por eso que ponemos el máximo valor en asegurarnos de que cada una de las experiencias en Alimentos de TRansició sea excelente.
+
 						</p>
 				</div>
 				<div class="tile">
 					<figure class="image is-half">
-						<img class="is-half" src="/img/tofu.webp" alt="">
+						<img class="is-half" src="/img/acerca/philosophy-3-balance.jpg" alt="">
 					</figure>
 				</div>
 			</div>

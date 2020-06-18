@@ -44,6 +44,9 @@ main .columns {
 main .column {
 	margin-bottom: 3rem;
 }
+a {
+  color: #9e593d;
+}
 a:hover {
   color: #f98b60;
 }
@@ -67,7 +70,7 @@ header {
 }
 #logo-principal a {
 	line-height: unset;
-	padding: 1rem 0;
+	padding: 0.9rem 0 .3rem;
 }
 /*··························· Menu Principal  */
 #menu-principal {
@@ -108,13 +111,13 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  height: 70px;
+  height: 88px;
   width: 70px;
 }
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 22px;
+  top: 30px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
@@ -162,8 +165,8 @@ a {
 ==================================*/
 main {
   min-height: 50vh;
-  padding-top: 30px;
-  padding-bottom: 100px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .title, .subtitle {
   font-family: Noto, serif;
@@ -250,6 +253,7 @@ h2.after-title-icon {
 }
 .card {
   color: #777;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.4), 0 0px 0 1px rgba(10, 10, 10, 0.1);
 }
 .card .title {
 	font-size: 1.3rem;
@@ -289,17 +293,32 @@ footer .container {
 
 .footer-top {
   min-height: 200px;
-  display: flex;
-  justify-content: center;
-}
-.footer-top {
   background-color: #312a24;
+  padding: 3rem 1rem;
+  color: #a1a1a1;
+}
+.footer-top a {
+  color: #a1a1a1;
+}
+.footer-top a:hover {
+  color: #f98b60;
+}
+.footer-top h4 {
+	color: #ddd;
+	text-transform: uppercase;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+.footer-top li {
+	margin-top: 5px;
 }
 .footer-top .logo {
   font-family: Caveat, serif;
   font-size: 3rem;
   font-weight: bold;
   color: #ddd;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 .footer-bottom .column.left {
 	display: flex;
@@ -398,12 +417,9 @@ header.container {
     height: 100vh;
   }
   #logo-principal {
-    float: left;
     padding-left: 20px;
-    position: absolute;
     z-index: 101;
     width: unset;
-    height: 70px;
   }
   .links:not(:last-child) {
     padding-right: unset;

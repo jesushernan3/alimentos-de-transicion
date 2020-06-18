@@ -38,7 +38,7 @@
             </div>
             <div class="tile">
                 <figure class="image is-half">
-                    <img class="is-half" src="/img/tofu.webp" alt="">
+                    <img class="is-half" src="/img/inicio/home-2-our-story.jpg" alt="">
                 </figure>
             </div>
         </div>
@@ -48,7 +48,7 @@
         <div class="tile reverse">
             <div class="tile">
                 <figure class="image is-half">
-                    <img class="is-half" src="/img/tofu.webp" alt="">
+                    <img class="is-half" src="/img/inicio/home-5-our-culture.jpg" alt="">
                 </figure>
             </div>
             <div class="tile">
@@ -64,14 +64,14 @@
     <div class="hero">
         <div class="tile">
             <div class="tile has-text">
-                <h3>Simple siempre es lo mejor.</h3>
+                <h3>Simple siempre es lo mejor</h3>
                     <p>
                         Nuestra comida se crea con ingredientes básicos que se obtienen de manera responsable directamente de la naturaleza. Tratamos siempre de elejir proveedores que van hacía otra forma de relación con el entorno.
                     </p>
             </div>
             <div class="tile">
                 <figure class="image is-half">
-                    <img class="is-half" src="/img/tofu.webp" alt="">
+                    <img class="is-half" src="/img/inicio/home-4-our-culture.jpg" alt="">
                 </figure>
             </div>
         </div>
