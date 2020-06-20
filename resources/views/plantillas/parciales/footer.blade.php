@@ -19,7 +19,7 @@
         <h4>Información de Contacto</h4>
         <ul>
           <li><i class="lni lni-envelope"></i> : <a href="mailto:alimentosdetransicion@gmail.com">alimentosdetransicion@gmail.com</a></li>
-          <li><i class="lni lni-phone"></i> : 011 2171-5239</li>
+          <li><i class="lni lni-telegram-original"></i> : <a href="https://msng.link/o/?alimentosdetransicion=tg">+54 11 2171-5239</a></li>
           <li><i class="lni lni-whatsapp"></i> : <a href="https://wa.link/1o8bet" target="_blank">+54 11 2171-5239</a></li>
         </ul>
       </div>

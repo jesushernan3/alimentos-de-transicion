@@ -76,6 +76,19 @@
             </div>
         </div>
     </div>
+    <div class="hero">
+        <div class="whatsapp-banner">
+            <div class="columns">
+                <div class="column left">
+                  <p>Preguntas</p>
+                  <p>Consultas</p>
+                  <p>Pedidos</p>
+                </div>
+
+                <a href="https://wa.link/1o8bet" class="column right" target="_blank"><i class="lni lni-whatsapp"></i><span>011 2672-4405</span></a>
+            </div>
+        </div>
+    </div>
 
 </main>
 @endsection

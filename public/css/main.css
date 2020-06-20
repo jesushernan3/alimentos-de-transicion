@@ -173,6 +173,8 @@ main {
   color: #463d34;
 }
 
+/* Vista - Index
+==================================*/
 /*··························· Banner  */
 .banner .image {
 	position: absolute;
@@ -183,7 +185,6 @@ main {
   position: relative;
   overflow: hidden;
 }
-
 .banner::after {
 	content: "";
 	position: absolute;
@@ -222,6 +223,38 @@ main {
   font-weight: bold;
   font-size: 2rem;
   color: #463d34;
+}
+
+.whatsapp-banner {
+	margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.2);
+}
+.whatsapp-banner .column {
+	margin-bottom: unset;
+	display: inherit;
+	align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.whatsapp-banner .column.right {
+	background-color: #5fbd74;
+	margin: 3rem;
+	border-radius: 1rem;
+	color: #ddd;
+}
+.whatsapp-banner .column.right i {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+.whatsapp-banner .column p {
+	text-transform: uppercase;
+	color: #463d34;
+}
+.whatsapp-banner .column.right:hover {
+	box-shadow: inset 1px 1px 10px 10px rgba(155,155,155,0.5);
 }
 
 /* Categoria - Producto
@@ -391,7 +424,7 @@ header.container {
 }
 }
 @media (max-width: 960px /* Desktop - Breakpoint */) {
-  .columns {
+  main .columns {
     display: flex;
   }
   main .hero {
@@ -415,6 +448,7 @@ header.container {
     z-index: 10;
     background-color: #fff;
     height: 100vh;
+    left: 0;
   }
   #logo-principal {
     padding-left: 20px;
@@ -441,12 +475,18 @@ header.container {
   .productos h2 {
     font-size: 2.5rem;
     line-height: 3rem;
-  }    
+  }
+  .whatsapp-banner {
+    margin: 2rem 1rem;
+  }
+  .whatsapp-banner .column.left {
+	padding: 2rem 2rem 0;
+}
   /*··························· Categories  769*/
   
   /*··························· Footer 769  */
-  .footer-bottom .columns {
-    flex-direction: column-reverse;
+  .footer-top .columns {
+    flex-direction: column;
   }
   .footer-bottom .left {
     justify-content: center;
