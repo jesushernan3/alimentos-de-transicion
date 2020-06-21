@@ -228,7 +228,7 @@ main {
 .whatsapp-banner {
 	margin-top: 2rem;
   border-radius: 5px;
-  box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
 }
 .whatsapp-banner .column {
 	margin-bottom: unset;
@@ -257,9 +257,19 @@ main {
 	box-shadow: inset 1px 1px 10px 10px rgba(155,155,155,0.5);
 }
 
+.tira-de-imagenes {
+  text-align: center;
+}
+.products-banner {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.products-banner .title {
+	margin-bottom: 2rem;
+}
 /* Categoria - Producto
 ==================================*/
-h2.after-title-icon {
+h2.after-title-icon, h3.after-title-icon {
 	font-size: 4rem;
 	display: flex;
 	color: #312a24;
@@ -411,7 +421,7 @@ footer .container {
   .hero.banner .image {
     top: unset;
     bottom: 0;
-    left: 0;
+    left: -500px;
   }
   .tile > .image img {
     max-width: 100%;
@@ -429,6 +439,9 @@ header.container {
   }
   main .hero {
 	margin-bottom: 4rem;
+}
+.hero-body {
+	padding: 10rem 1.5rem;
 }
 }
 @media (max-width: 769px /* Table - Breakpoint */) {
@@ -471,6 +484,9 @@ header.container {
   }
   .hero .title {
 	font-size: 1.9rem;
+  }
+  .hero-body {
+    padding: 8rem 1.5rem;
   }
   .productos h2 {
     font-size: 2.5rem;

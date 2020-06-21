@@ -15,8 +15,8 @@
         </div>
     </div>
 </section>
-<main class="container">
-
+<main>
+  <div class="container">
     <div class="hero">
         <div class="tile">
             <div class="tile has-text">
@@ -76,6 +76,28 @@
             </div>
         </div>
     </div>
+  </div>
+    <div class="hero">
+        <a href="/productos">
+            <div class="products-banner">
+                
+                    <div class="title">
+                        <h3 class="after-title-icon">Productos</h3>
+                        <h4 class="subtitle">Conoce Nuestros Productos</h4>
+                    </div>
+                <div class="tira-de-imagenes">
+                    <img src="/img/menu/babaganoush.jpg" alt="">
+                    <img src="/img/menu/chipotle-hummus.jpg" alt="">
+                    <img src="/img/menu/cilantro-sauce.jpg" alt="">
+                    <img src="/img/menu/greek-vin.jpg" alt="">
+                    <img src="/img/menu/iced-tea.jpg" alt="">
+                    <img src="/img/menu/lemonade.jpg" alt="">
+                    <img src="/img/menu/orig-hummus.jpg" alt="">
+                </div>
+            </div>
+        </a>
+    </div>
+<div class="container">
     <div class="hero">
         <div class="whatsapp-banner">
             <div class="columns">
@@ -89,6 +111,7 @@
             </div>
         </div>
     </div>
+</div>
 
 </main>
 @endsection
