@@ -1,117 +1,112 @@
 @extends('plantillas.plantilla')
 @section('contenido')
 <section class="hero banner is-large">
-    <div class="hero-body">
-        <figure class="image is-fullwidth">
-            <img src="/img/main-hero-home.jpg">
-        </figure>
-        <div class="container">
-        <h1 class="title">
-            Alimentos de Transición
-        </h1>
-        <h2 class="subtitle">
-            sin dogmas
-        </h2>
-        </div>
+  <div class="hero-body">
+    <figure class="image is-fullwidth">
+      <img src="/img/main-hero-home.jpg">
+    </figure>
+    <div class="container">
+      <h1 class="title">
+        Alimentos de Transición
+      </h1>
+      <h2 class="subtitle">
+        sin dogmas
+      </h2>
     </div>
+  </div>
 </section>
 <main>
   <div class="container">
     <div class="hero">
-        <div class="tile">
-            <div class="tile has-text">
-                <h3>Siginficado</h3>
-                <ul>
-                    <li><b>"Alimento"</b> Del latin. <em>alimentum</em>
-                        <ol>
-                            <li>Conjunto de sustancias que los seres vivos comen o beben para subsistir. </li>
-                            <li>Cada una de las sustancias que un ser vivo toma o recibe para su nutrición</li>
-                        </ol>
-                    </li>
-                    <li><b>"Transición"</b> Del latin. <em>transitio, -ōnis.</em>
-                        <ol>
-                            <li>Acción y efecto de pasar de un modo de ser o estar a otro distinto.</li>
-                            <li>Cambio repentino de tono y expresión.</li>
-                        </ol>
-                    </li>
-                </ul>
-            </div>
-            <div class="tile">
-                <figure class="image is-half">
-                    <img class="is-half" src="/img/inicio/home-2-our-story.jpg" alt="">
-                </figure>
-            </div>
+      <h3 class="title after-title-icon">Propuesta</h3>
+
+      <div class="tile">
+        <div class="tile has-text">
+          <h3>Herencia</h3>
+          <p>
+            A través de generaciones hemos estado construyendo y desglosando una forma optima de transformar la
+            alimentación. Nuestra propuesta consiste en continuar con esta tradición y adaptarnos a nuevas formas de
+            intercambio. Ofrecerles la posiblidad de tener alimentos acordes a nuestro ritmo de vida. Armado con recetas
+            familiares, nos proponemos llevar al alcance de todos nuestra visión de alimentos.
+          </p>
         </div>
+        <div class="tile">
+          <figure class="image is-half">
+            <img class="is-half" src="/img/inicio/home-2-our-story.jpg" alt="">
+          </figure>
+        </div>
+      </div>
     </div>
 
     <div class="hero">
-        <div class="tile reverse">
-            <div class="tile">
-                <figure class="image is-half">
-                    <img class="is-half" src="/img/inicio/home-5-our-culture.jpg" alt="">
-                </figure>
-            </div>
-            <div class="tile">
-            <div class="tile has-text">
-                <h3>Sin dogmas</h3>
-                <p>Proponemos desde ya un cambio también en la forma de denomir cosas, tendencia, formas de vida. proponemos hacerlas más simple. Todos nos vimos atrapados en algún momento en una defición, por eso, estamos siempre en transición.</p>
-                
-            </div>
-            </div>
+      <div class="tile reverse">
+        <div class="tile">
+          <figure class="image is-half">
+            <img class="is-half" src="/img/inicio/home-5-our-culture.jpg" alt="">
+          </figure>
         </div>
+        <div class="tile">
+          <div class="tile has-text">
+            <p>
+              Preparamos nuestra comida tradicional y diariamente, para que sepa que está obteniendo la mejor comida de
+              calidad que existe. Nuestro proceso de pedido es tan simple como nuestros ingredientes. Nos encanta
+              cuidarlo y hemos diseñado un ambiente familiar en el que puede celebrar el evento de comer.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="hero">
-        <div class="tile">
-            <div class="tile has-text">
-                <h3>Simple siempre es lo mejor</h3>
-                    <p>
-                        Nuestra comida se crea con ingredientes básicos que se obtienen de manera responsable directamente de la naturaleza. Tratamos siempre de elejir proveedores que van hacía otra forma de relación con el entorno.
-                    </p>
-            </div>
-            <div class="tile">
-                <figure class="image is-half">
-                    <img class="is-half" src="/img/inicio/home-4-our-culture.jpg" alt="">
-                </figure>
-            </div>
+      <div class="tile">
+        <div class="tile has-text">
+          <p>
+            Y como punto de cierre finalizamos esta propuesta con nuestro metodo para poner al alcance de la mayoria de
+            personas posible, hacemos envios los lunes y viernes en C.A.B.A. y Gran Buenos Aires
+          </p>
         </div>
+        <div class="tile">
+          <figure class="image is-half">
+            <img class="is-half" src="/img/inicio/home-4-our-culture.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <a href="/productos">
+        <div class="products-banner box">
+
+          <div class="title">
+            <h4 class="subtitle">Conoce Nuestros</h4>
+            <h3 class="after-title-icon">Productos</h3>
+          </div>
+          <div class="tira-de-imagenes">
+            <img src="/img/menu/babaganoush.jpg" alt="">
+            <img src="/img/menu/chipotle-hummus.jpg" alt="">
+            <img src="/img/menu/cilantro-sauce.jpg" alt="">
+            <img src="/img/menu/greek-vin.jpg" alt="">
+            <img src="/img/menu/iced-tea.jpg" alt="">
+            <img src="/img/menu/lemonade.jpg" alt="">
+            <img src="/img/menu/orig-hummus.jpg" alt="">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="hero">
+      <div class="whatsapp-banner box">
+        <div class="columns">
+          <div class="column left">
+            <p>Preguntas</p>
+            <p>Consultas</p>
+            <p>Pedidos</p>
+          </div>
+
+          <a href="https://wa.link/1o8bet" class="column right" target="_blank"><i
+              class="lni lni-whatsapp"></i><span>011 2672-4405</span></a>
+        </div>
+      </div>
     </div>
   </div>
-    <div class="hero">
-        <a href="/productos">
-            <div class="products-banner">
-                
-                    <div class="title">
-                        <h3 class="after-title-icon">Productos</h3>
-                        <h4 class="subtitle">Conoce Nuestros Productos</h4>
-                    </div>
-                <div class="tira-de-imagenes">
-                    <img src="/img/menu/babaganoush.jpg" alt="">
-                    <img src="/img/menu/chipotle-hummus.jpg" alt="">
-                    <img src="/img/menu/cilantro-sauce.jpg" alt="">
-                    <img src="/img/menu/greek-vin.jpg" alt="">
-                    <img src="/img/menu/iced-tea.jpg" alt="">
-                    <img src="/img/menu/lemonade.jpg" alt="">
-                    <img src="/img/menu/orig-hummus.jpg" alt="">
-                </div>
-            </div>
-        </a>
-    </div>
-<div class="container">
-    <div class="hero">
-        <div class="whatsapp-banner">
-            <div class="columns">
-                <div class="column left">
-                  <p>Preguntas</p>
-                  <p>Consultas</p>
-                  <p>Pedidos</p>
-                </div>
-
-                <a href="https://wa.link/1o8bet" class="column right" target="_blank"><i class="lni lni-whatsapp"></i><span>011 2672-4405</span></a>
-            </div>
-        </div>
-    </div>
-</div>
 
 </main>
 @endsection
