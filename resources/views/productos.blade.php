@@ -6,8 +6,9 @@
 				<img src="/img/banner-gral.jpg">
 			</figure>
 			<div class="container">
+				<h2 class="subtitle">conozca nuestros</h2>
 			<h1 class="title">
-					Nuestros Productos
+					Productos
 			</h1>
 			</div>
 	</div>

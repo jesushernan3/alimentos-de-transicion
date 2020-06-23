@@ -47,6 +47,7 @@
         </div>
         <div class="tile">
           <div class="tile has-text">
+            <h3>Tradición</h3>
             <p>
               Preparamos nuestra comida tradicional y diariamente, para que sepa que está obteniendo la mejor comida de
               calidad que existe. Nuestro proceso de pedido es tan simple como nuestros ingredientes. Nos encanta
@@ -60,6 +61,7 @@
     <div class="hero">
       <div class="tile">
         <div class="tile has-text">
+          <h3>Formas</h3>
           <p>
             Y como punto de cierre finalizamos esta propuesta con nuestro metodo para poner al alcance de la mayoria de
             personas posible, hacemos envios los lunes y viernes en C.A.B.A. y Gran Buenos Aires
