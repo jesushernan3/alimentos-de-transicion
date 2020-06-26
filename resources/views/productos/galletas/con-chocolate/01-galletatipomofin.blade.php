@@ -6,12 +6,13 @@
 				<img src="/img/banner-gral.jpg">
 			</figure>
 			<div class="container">
-				<h2 class="subtitle">
-					Medallones de Garbanzo
-			</h2>
+				
 			<h1 class="title">
-					Medallon de Garbanzo + Curry
+					Galletas tipo muffin 
 			</h1>
+			<h2 class="subtitle">
+					+ Chips de Chocolate
+			</h2>
 			
 			</div>
 	</div>

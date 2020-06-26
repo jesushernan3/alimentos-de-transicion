@@ -28,7 +28,7 @@ Route::get('/acerca', function () {
 // });
 Route::get('/contacto', 'FormularioDeContacto@Formulario');
 
-// Ruta a productos
+// RUTA A PRODUCTOS
 // ·········································· medallones - Garbanzos
 Route::get('/productos/medallones-garbanzos', function () {
     return view('productos/medallones/medallones-garbanzos');
@@ -47,7 +47,6 @@ Route::get('/productos/medallones-garbanzos', function () {
     });
 
 // ·········································· medallones - Arroz
-
 Route::get('/productos/medallones-arroz', function () {
     return view('productos/medallones/medallones-arroz');
 });
@@ -65,7 +64,6 @@ Route::get('/productos/medallones-arroz', function () {
     });
 
 // ·········································· medallones - Lentejas
-
 Route::get('/productos/medallones-lentejas', function () {
     return view('productos/medallones/medallones-lentejas');
     });
@@ -83,7 +81,6 @@ Route::get('/productos/medallones-lentejas', function () {
     });
 
 // ·········································· medallones - Variedades
-
 Route::get('/productos/medallones-variedades', function () {
     return view('productos/medallones/medallones-variedades');
 });
@@ -102,10 +99,17 @@ Route::get('/productos/medallones-variedades', function () {
         
 
 // ·········································· medallones - Especiales
-
 Route::get('/productos/medallones-especiales', function () {
     return view('productos/medallones/medallones-especiales');
 });
 Route::get('/productos/medallones/arrozpuro', function () {
     return view('productos/medallones/especiales/01-especiales');
 });
+
+// ·········································· GALLETAS - chocolate
+Route::get('/productos/galletas/con-chocolate', function (){
+    return view('/productos/galletas/galletas-con-chocolate');
+});
+    Route::get('/productos/galletas/tipo-moffin', function (){
+        return view('/productos/galletas/con-chocolate/01-galletatipomofin');
+    });
