@@ -102,9 +102,10 @@
             <p>Consultas</p>
             <p>Pedidos</p>
           </div>
-
-          <a href="https://wa.link/1o8bet" class="column right" target="_blank"><i
-              class="lni lni-whatsapp"></i><span>011 2672-4405</span></a>
+          
+          {{-- <a href="https://wa.link/1o8bet" class="column right" target="_blank"><i --}}
+          <a href="http://web.whatsapp.com/send?phone=541121715239&text=Hola, quer%C3%ADa hacerte una consulta sobre los servicios de Aeuroweb." class="column right" target="_blank"><i
+          class="lni lni-whatsapp"></i><span>011 2672-4405</span></a>
         </div>
       </div>
     </div>

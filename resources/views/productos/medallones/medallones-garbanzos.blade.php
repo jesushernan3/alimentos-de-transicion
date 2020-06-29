@@ -29,7 +29,7 @@
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">con Curry</h3>
+							<h3 class="title">Clásico</h3>
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
 								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
@@ -49,7 +49,7 @@
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">con Calabaza</h3>
+							<h3 class="title">Criollo</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
@@ -70,7 +70,7 @@
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">con Arroz Basmati</h3>
+							<h3 class="title">Hindu</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
@@ -91,7 +91,7 @@
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">con Especias</h3>
+							<h3 class="title">Picante</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la

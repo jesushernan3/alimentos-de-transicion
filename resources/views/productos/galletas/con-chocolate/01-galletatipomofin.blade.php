@@ -51,7 +51,7 @@
 
 			</div>
 			<div class="column  is-half is-half-mobile">
-				<h1 class="title">Garbanzo + Curry</h1>
+				<h1 class="title">Galletas tipo mofin</h1>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>

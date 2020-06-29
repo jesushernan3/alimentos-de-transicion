@@ -10,7 +10,7 @@
 					Medallones de Garbanzo
 			</h2>
 			<h1 class="title">
-					Medallon de Garbanzo + Curry
+					Garbanzo Clásica
 			</h1>
 			
 			</div>
@@ -50,7 +50,8 @@
 
 			</div>
 			<div class="column  is-half is-half-mobile">
-				<h1 class="title">Garbanzo + Curry</h1>
+				<h1 class="title">Garbanzo Clásica</h1>
+				<div class="sku"><span>Cod.Referencia:</span> ref1010</div>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
