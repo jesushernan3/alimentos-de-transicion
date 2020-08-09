@@ -14,102 +14,47 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/productos', function () {
-    return view('productos');
-});
-Route::get('/acerca', function () {
-    return view('acerca');
-});
-// Route::get('/contacto', function () {
-//     return view('contacto');
-// });
-Route::get('/contacto', 'FormularioDeContacto@Formulario');
+Route::view('/', 'home')->name('home');
+Route::view('productos', 'productos')->name('productos');
+Route::view('acerca', 'acerca')->name('acerca');
+Route::view('preguntas-frecuentes', 'atencion/preguntas-frecuentes')->name('preguntas-frecuentes');
+
+Route::view('/contacto', 'FormularioDeContacto@Formulario');
 
 // RUTA A PRODUCTOS
 // ·········································· medallones - Garbanzos
-Route::get('/productos/medallones-garbanzos', function () {
-    return view('productos/medallones/medallones-garbanzos');
-});
-    Route::get('/productos/medallones/garbanzoycurry', function () {
-        return view('productos/medallones/garbanzos/01-garbanzo');
-    });
-    Route::get('/productos/medallones/garbanzoycalabaza', function () {
-        return view('productos/medallones/garbanzos/02-garbanzo');
-    });
-    Route::get('/productos/medallones/garbanzoybasmati', function () {
-        return view('productos/medallones/garbanzos/03-garbanzo');
-    });
-    Route::get('/productos/medallones/garbanyespecias', function () {
-        return view('productos/medallones/garbanzos/04-garbanzo');
-    });
+Route::view('productos/medallones-de-garbanzos', 'productos.medallones.medallones-garbanzos');
+    Route::view('/productos/medallones/garbanzoycurry', 'productos.medallones.garbanzos.01-garbanzo');
+    Route::view('/productos/medallones/garbanzoycalabaza', 'productos.medallones.garbanzos.02-garbanzo');
+    Route::view('/productos/medallones/garbanzoybasmati', 'productos.medallones.garbanzos.03-garbanzo');
+    Route::view('/productos/medallones/garbanyespecias', 'productos.medallones.garbanzos.04-garbanzo');
 
 // ·········································· medallones - Arroz
-Route::get('/productos/medallones-arroz', function () {
-    return view('productos/medallones/medallones-arroz');
-});
-    Route::get('/productos/medallones/arrozyporotos', function () {
-        return view('productos/medallones/arroz/01-arroz');
-    });
-    Route::get('/productos/medallones/arrozycurry', function () {
-        return view('productos/medallones/arroz/02-arroz');
-    });
-    Route::get('/productos/medallones/arrozymijo', function () {
-        return view('productos/medallones/arroz/03-arroz');
-    });
-    Route::get('/productos/medallones/arrozepsciales', function () {
-        return view('productos/medallones/arroz/04-arroz');
-    });
+Route::view('/productos/medallones-arroz', 'productos.medallones.medallones-arroz');
+    Route::view('/productos/medallones/arrozyporotos', 'productos.medallones.arroz.01-arroz');
+    Route::view('/productos/medallones/arrozycurry', 'productos.medallones.arroz.02-arroz');
+    Route::view('/productos/medallones/arrozymijo', 'productos.medallones.arroz.03-arroz');
+    Route::view('/productos/medallones/arrozepsciales', 'productos.medallones.arroz.04-arroz');
 
 // ·········································· medallones - Lentejas
-Route::get('/productos/medallones-lentejas', function () {
-    return view('productos/medallones/medallones-lentejas');
-    });
-    Route::get('productos/medallones/lentajapura', function () {
-        return view('productos/medallones/lentejas/01-lentejas');
-    });
-    Route::get('/productos/medallones/lentejayverdeo', function () {
-        return view('productos/medallones/lentejas/02-lentejas');
-    });
-    Route::get('/productos/medallones/lentejaycurry', function () {
-        return view('productos/medallones/lentejas/03-lentejas');
-    });
-    Route::get('/productos/medallones/lentejayespecias', function () {
-        return view('productos/medallones/lentejas/04-lentejas');
-    });
+Route::view('/productos/medallones-lentejas', 'productos.medallones.medallones-lentejas');
+    Route::view('productos/medallones/lentajapura', 'productos.medallones.lentejas.01-lentejas');
+    Route::view('/productos/medallones/lentejayverdeo', 'productos.medallones.lentejas.02-lentejas');
+    Route::view('/productos/medallones/lentejaycurry', 'productos.medallones.lentejas.03-lentejas');
+    Route::view('/productos/medallones/lentejayespecias', 'productos.medallones.lentejas.04-lentejas'); 
 
 // ·········································· medallones - Variedades
-Route::get('/productos/medallones-variedades', function () {
-    return view('productos/medallones/medallones-variedades');
-});
-    Route::get('/productos/medallones/brocoli', function () {
-        return view('productos/medallones/variedades/01-variedades');
-    });
-    Route::get('/productos/medallones/calabaza', function () {
-        return view('productos/medallones/variedades/02-variedades');
-    });
-    Route::get('/productos/medallones/verduras', function () {
-        return view('productos/medallones/variedades/03-variedades');
-    });
-    Route::get('/productos/medallones/zanahoria', function () {
-        return view('productos/medallones/variedades/04-variedades');
-    });
+Route::view('/productos/medallones-variedades', 'productos.medallones.medallones-variedades');
+    Route::view('/productos/medallones/brocoli', 'productos.medallones.variedades.01-variedades');
+    Route::view('/productos/medallones/calabaza', 'productos.medallones.variedades.02-variedades');
+    Route::view('/productos/medallones/verduras', 'productos.medallones.variedades.03-variedades');
+    Route::view('/productos/medallones/zanahoria', 'productos.medallones.variedades.04-variedades');
         
 
 // ·········································· medallones - Especiales
-Route::get('/productos/medallones-especiales', function () {
-    return view('productos/medallones/medallones-especiales');
-});
-Route::get('/productos/medallones/arrozpuro', function () {
-    return view('productos/medallones/especiales/01-especiales');
-});
+Route::view('/productos/medallones-especiales', 'productos/medallones/medallones-especiales');
+Route::view('/productos/medallones/arrozpuro', 'productos/medallones/especiales/01-especiales');
 
 // ·········································· GALLETAS - chocolate
-Route::get('/productos/galletas/con-chocolate', function (){
-    return view('/productos/galletas/galletas-con-chocolate');
-});
-    Route::get('/productos/galletas/tipo-moffin', function (){
-        return view('/productos/galletas/con-chocolate/01-galletatipomofin');
-    });
+Route::view('/productos/galletas/con-chocolate', '/productos/galletas/galletas-con-chocolate');
+    Route::view('/productos/galletas/tipo-moffin', '/productos/galletas/con-chocolate/01-galletatipomofin');

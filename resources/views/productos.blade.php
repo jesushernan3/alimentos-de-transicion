@@ -1,4 +1,5 @@
 @extends('plantillas.plantilla')
+@section('title', 'AdT - Productos')
 @section('contenido')
 <section class="hero banner is-medium">
 	<div class="hero-body">
@@ -22,7 +23,7 @@
 		<div class="columns">
 
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="productos/medallones-garbanzos">
+				<a class="section" href="productos/medallones-de-garbanzos">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -109,6 +110,32 @@
 	</section>
 	<section class="section productos galletas">
 		<h2 class="after-title-icon">Galletas</h2>
+		<div class="columns">
+			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+				<a class="section" href="/productos/galletas/con-chocolate">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="img/productos/galletas/galleta_tipo_muffin/01.GalletaTipoMofin.jpg" alt="Galleta tipo Muffin">
+							</figure>
+						</div>
+						<div class="card-content">
+							<h3 class="title">con Chocolate</h3>
+
+							<div class="content">
+								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
+								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
+								ingredientes principales, que los puedes conseguir en...
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</div>
+	</section>
+	<section class="section productos budines">
+		<h2 class="after-title-icon">Budines</h2>
 		<div class="columns">
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
 				<a class="section" href="/productos/galletas/con-chocolate">

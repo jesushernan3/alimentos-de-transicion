@@ -21,7 +21,7 @@
 
     <br>
     <div class="section">
-      <form action="submit">
+      {{-- <form action="submit">
 
         <div class="field">
           <label class="label">Nombre</label>
@@ -47,7 +47,7 @@
           </div>
         </div>
         
-      </form>
+      </form> --}}
     </div>
 
     <div class="has-text-centered">
