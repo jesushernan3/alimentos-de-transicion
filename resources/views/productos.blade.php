@@ -23,7 +23,7 @@
 		<div class="columns">
 
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="productos/medallones-de-garbanzos">
+				<a class="section" href="{{ route('medallones-de-garbanzos') }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="productos/medallones-lentejas">
+				<a class="section" href="{{ route('medallones-de-lenteja') }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -64,8 +64,9 @@
 				</a>
 			</div>
 
+			{{-- A DESARROLLAR
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="productos/medallones-arroz">
+				<a class="section" href="{{ route('medallones-de-arroz') }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -83,10 +84,10 @@
 						</div>
 					</div>
 				</a>
-			</div>
+			</div> --}}
 
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="productos/medallones-variedades">
+			<a class="section" href="{{ route('medallones-de-variedades') }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
@@ -138,15 +139,15 @@
 		<h2 class="after-title-icon">Budines</h2>
 		<div class="columns">
 			<div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-				<a class="section" href="/productos/galletas/con-chocolate">
+			<a class="section" href="{{ route('budines') }}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image is-4by3">
-								<img src="img/productos/galletas/galleta_tipo_muffin/01.GalletaTipoMofin.jpg" alt="Galleta tipo Muffin">
+							<img src="{{asset('img/productos/budines/con-almendra/07.budin-almendra.jpg')}}" alt="Galleta tipo Muffin">
 							</figure>
 						</div>
 						<div class="card-content">
-							<h3 class="title">con Chocolate</h3>
+							<h3 class="title">Integrales</h3>
 
 							<div class="content">
 								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la

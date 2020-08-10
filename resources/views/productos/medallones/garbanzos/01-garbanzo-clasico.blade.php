@@ -10,7 +10,7 @@
 					Medallones de Garbanzo
 			</h2>
 			<h1 class="title">
-					Garbanzo Clásica
+					Garbanzo Clásico
 			</h1>
 			
 			</div>
@@ -30,10 +30,9 @@
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
 								<!-- Slides -->
-								<div class="swiper-slide"><img src="/img/productos/galletas/galleta_tipo_muffin/01.GalletaTipoMofin.jpg" alt=""></div>
-								<div class="swiper-slide"><img src="/img/productos/galletas/galleta_tipo_muffin/02.GalletaTipoMofin.jpg" alt=""></div>
-								<div class="swiper-slide"><img src="/img/productos/galletas/galleta_tipo_muffin/03.GalletaTipoMofin.jpg" alt=""></div>
-								<div class="swiper-slide"><img src="/img/productos/galletas/galleta_tipo_muffin/04.GalletaTipoMofin.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/01.garbanzo-clasico.jpg')}}" alt=""></div>
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/02.garbanzo-clasico.jpg')}}" alt=""></div>
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/03.garbanzo-clasico.jpg')}}" alt=""></div>
 								...
 						</div>
 						<!-- If we need pagination -->
@@ -50,7 +49,7 @@
 
 			</div>
 			<div class="column  is-half is-half-mobile">
-				<h1 class="title">Garbanzo Clásica</h1>
+				<h1 class="title">Garbanzo Clásico</h1>
 				<div class="sku"><span>Cod.Referencia:</span> ref1010</div>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
