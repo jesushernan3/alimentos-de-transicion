@@ -61,3 +61,5 @@ Route::view('/productos/galletas/con-chocolate', 'productos.galletas.galletas-co
 
 // ·········································· BUDINES
 Route::view('productos/budines', 'productos.budines.budines')->name('budines');
+    Route::view('productos/budines/budin-con-almendras', 'productos.budines.budines-integrales.01-budines-con-almendras')->name('budin-con-almendras');
+    Route::view('productos/budines/budin-con-nuez', 'productos.budines.budines-integrales.02-budines-con-nuez')->name('budin-con-nuez');

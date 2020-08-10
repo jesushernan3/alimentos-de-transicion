@@ -22,7 +22,7 @@
     	<div class="columns">
 
 				<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-					<a class="section" href="medallones/garbanzo-clasico">
+				<a class="section" href="{{ route('budin-con-almendras') }}">
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
@@ -42,7 +42,7 @@
 				</div>
 
 				<div class="column is-one-quarter is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-					<a class="section" href="/productos/medallones/garbanzoycalabaza">
+				<a class="section" href="{{ route('budin-con-nuez') }}">
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
