@@ -34,9 +34,7 @@
 							<h3 class="title">de Garbanzo</h3>
 
 							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
+								Garbanzo, una especie de leguminosa adaptada desde ámbito mediterraneo con profusas cualidades culinarias. Con posible origen del meditarráneo y con su llegada a través de los navegantes hispánicos precolombinos, nos trae las infinitas posibilidades para abrirnos a otra variante de alimentación que la ya tradicional comida argentina. Con excelentes atributos nutricionales es nuestra elección predilecta para este tipo de producto
 							</div>
 						</div>
 					</div>
@@ -55,9 +53,8 @@
 							<h3 class="title">de Lentejas</h3>
 
 							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
+								Lens culinaris: Las lentejas constituyen uno de los componentes de la dieta humana más antiguos, pues su consumo se remonta a unos 9,500-13,000 años atrás. La planta en la que se producen es parte de la familia de las leguminosas, que incluye las plantas de frijol, chícharo, garbanzo y cacahuate. La palabra lenteja alude a la forma cóncava de sus semillas, que recuerdan la de las lentes.
+								La lenteja es un alimento con una alta concentración de nutrientes. Los hidratos de carbono son los más abundantes y están formados fundamentalmente por almidón
 							</div>
 						</div>
 					</div>
@@ -98,9 +95,7 @@
 							<h3 class="title">Variedades</h3>
 
 							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
+								Gran variedad de legumbres para obtener el mayor beneficio nutricinal, desde quinoa hasta trigo burgol.
 							</div>
 						</div>
 					</div>
