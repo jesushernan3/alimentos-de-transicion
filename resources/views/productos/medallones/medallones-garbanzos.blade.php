@@ -31,9 +31,7 @@
 							<div class="card-content">
 								<h3 class="title">Clásico</h3>
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Receta elaborada específicamente con la idea de simplicidad, ideal para aquellos que el sabor elemental sea lo principal.
 								</div>
 							</div>
 						</div>
@@ -52,9 +50,7 @@
 								<h3 class="title">Criollo</h3>
 
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Receta con tintes de clásico estilo rioplatense, un sabor concocido en un producto no convencional.
 								</div>
 							</div>
 						</div>
@@ -73,9 +69,7 @@
 								<h3 class="title">Hindu</h3>
 
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Para aquellos que quieran un sabor más dulce en la comida.
 								</div>
 							</div>
 						</div>
@@ -94,9 +88,7 @@
 								<h3 class="title">Picante</h3>
 
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Con pimienta y ajo para mayor resalte de lo picante.
 								</div>
 							</div>
 						</div>

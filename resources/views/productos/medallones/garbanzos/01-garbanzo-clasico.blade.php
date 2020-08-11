@@ -53,12 +53,12 @@
 				<div class="sku"><span>Cod.Referencia:</span> ref1010</div>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
+					<p>Medallones de garbanzos con mínimo de especias, receta simple, son pocos ingredientes: ajo, sal y Pimineta</p>
 				</div>
 			</div>
-			<div class="column is-full is-full-mobile">
+			<div class="column is-three-quarters is-full-mobile informacion-adicional">
 				<input type="radio" id="descripcion" name="nav-tab">
-				<input type="radio" id="ingredientes" name="nav-tab">
+				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
 				
 				<div class="tabs is-centered is-boxed">
@@ -78,11 +78,11 @@
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>ingrediente 1</li>
-							<li>ingrediente 2</li>
-							<li>ingrediente 3</li>
-							<li>ingrediente 4</li>
-							<li>ingrediente 5</li>
+							<li>Garbanzo</li>
+							<li>Ajo</li>
+							<li>Fécula de maíz</li>
+							<li>Sal</li>
+							<li>Pimineta</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">

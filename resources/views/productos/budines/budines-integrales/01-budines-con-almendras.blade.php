@@ -10,7 +10,7 @@
 					Budines Integrales
 			</h2>
 			<h1 class="title">
-					con Almendras
+					Vainilla + Algarrobo
 			</h1>
 			
 			</div>
@@ -49,16 +49,16 @@
 
 			</div>
 			<div class="column  is-half is-half-mobile">
-				<h1 class="title">Budin con Almendras</h1>
+				<h1 class="title">Algarrobo</h1>
 				<div class="sku"><span>Cod.Referencia:</span> ref1010</div>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
 				</div>
 			</div>
-			<div class="column is-full is-full-mobile">
+			<div class="column is-three-quarters is-full-mobile informacion-adicional">
 				<input type="radio" id="descripcion" name="nav-tab">
-				<input type="radio" id="ingredientes" name="nav-tab">
+				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
 				
 				<div class="tabs is-centered is-boxed">
@@ -78,11 +78,17 @@
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>ingrediente 1</li>
-							<li>ingrediente 2</li>
-							<li>ingrediente 3</li>
-							<li>ingrediente 4</li>
-							<li>ingrediente 5</li>
+							<li>• Harina integral agroecológia</li>
+							<li>• Harina de algarroba</li>
+							<li>• Almendras</li>
+							<li>• Azucar mascabo</li>
+							<li>• Aceite de coco</li>
+							<li>• Huevo de campo</li>
+							<li>• Cítrico (limón o naranja)</li>
+							<li>• Pulpa de manzana y zanahoria</li>
+							<li>• Semillas de lino</li>
+							<li>• Bicarbonato de sodio</li>
+							<li>• Escencia de vainilla</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">

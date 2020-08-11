@@ -386,7 +386,14 @@ input[type="radio"],
     border-bottom-color: #f98b60;
     color: #f98b60;
 }
-
+.informacion-adicional {
+    margin: 0 auto;
+}
+.tab-content {
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	padding: 0 10px;
+}
 .tab-content .content-info h5 {
     text-transform: uppercase;
     font-weight: bold;

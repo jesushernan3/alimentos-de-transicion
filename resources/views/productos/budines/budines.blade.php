@@ -30,7 +30,7 @@
 								</figure>
 							</div>
 							<div class="card-content">
-								<h3 class="title">Con almendras</h3>
+								<h3 class="title">Vainilla + Algarrobo</h3>
 								<div class="content">
 									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
 									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
@@ -50,7 +50,7 @@
 								</figure>
 							</div>
 							<div class="card-content">
-								<h3 class="title">Con nuez</h3>
+								<h3 class="title">Banana</h3>
 
 								<div class="content">
 									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
