@@ -21,33 +21,49 @@
 
     <br>
     <div class="section">
-      {{-- <form action="submit">
+      @if (session('message'))
+    <div class="notification is-success">{{ session('message') }}</div>
+      @endif
+    <form action="{{ route('contacto') }}" method="POST">
+        @csrf
 
         <div class="field">
           <label class="label">Nombre</label>
           <div class="control">
-          <input name="name" class="input" type="data" placeholder="e.g Alex Smith" value="<?php echo isset($_POST['name']) ? $name : '';  ?>">
+          <input name="name" class="input" type="text" placeholder="e.g Alex Smith" value="{{old('name') }}">
+          {!! $errors->first('name', '<b>:message</b>') !!}
           </div>
         </div>
         <div class="field">
           <label class="label">Email</label>
           <div class="control">
-            <input name="email" class="input" type="text" placeholder="e.g. alexsmith@gmail.com" value="<?php echo isset($_POST['email']) ? $email : '';  ?>">
+            <input name="email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" value="{{old('email') }}">
+          {!! $errors->first('email', '<b>:message</b>') !!}
+
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Sujeto</label>
+          <div class="control">
+            <input name="subject" class="input" type="text" placeholder="Sujeto" value="{{old('subject') }}">
+          {!! $errors->first('subject', '<b>:message</b>') !!}
+
           </div>
         </div>
         <div class="field">
           <label class="label">Mensaje</label>
           <div class="control">
-            <textarea name="message" class="textarea" placeholder="Textarea" value="<?php echo isset($_POST['message']) ? $message : '';  ?>"></textarea>
-          </div>
+            <textarea name="content" class="textarea" placeholder="Su mensaje aqui..." value="">{{old('message') }}</textarea>
+          {!! $errors->first('content', '<b>:message</b>') !!}
+          </div> 
         </div>
-        <div class="field">
+        <div class="field"
           <div class="control">
             <button type="submit" name="submit" class="button is-link">Mandar Mensaje</button>
           </div>
         </div>
         
-      </form> --}}
+      </form>
     </div>
 
     <div class="has-text-centered">

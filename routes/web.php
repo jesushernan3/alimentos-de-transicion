@@ -18,8 +18,8 @@ Route::view('/', 'home')->name('home');
 Route::view('productos', 'productos')->name('productos');
 Route::view('acerca', 'acerca')->name('acerca');
 Route::view('preguntas-frecuentes', 'atencion/preguntas-frecuentes')->name('preguntas-frecuentes');
-
-Route::view('/contacto', 'FormularioDeContacto@Formulario');
+Route::view('contacto', 'contacto')->name('contacto');
+Route::post('contacto', 'FormularioDeContacto@store');
 
 // RUTA A PRODUCTOS
 // ·········································· MEDALLONES - Garbanzos
