@@ -78,26 +78,26 @@
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>• Harina integral agroecológia</li>
-							<li>• Harina de algarroba</li>
-							<li>• Almendras</li>
-							<li>• Azucar mascabo</li>
-							<li>• Aceite de coco</li>
-							<li>• Huevo de campo</li>
-							<li>• Cítrico (limón o naranja)</li>
-							<li>• Pulpa de manzana y zanahoria</li>
-							<li>• Semillas de lino</li>
-							<li>• Bicarbonato de sodio</li>
-							<li>• Escencia de vainilla</li>
+							<li>Harina integral agroecológia</li>
+							<li>Harina de algarroba</li>
+							<li>Almendras</li>
+							<li>Azucar mascabo</li>
+							<li>Aceite de coco</li>
+							<li>Huevo de campo</li>
+							<li>Cítrico (limón o naranja)</li>
+							<li>Pulpa de manzana y zanahoria</li>
+							<li>Semillas de lino</li>
+							<li>Bicarbonato de sodio</li>
+							<li>Escencia de vainilla</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">
 						<h5>Como Comprar</h5>
 							<ul>
-								<li>· Debajo del título del productos se encuentra el código de referencia.</li>
-								<li>· Con ese código indiquenos la cantidad que desea</li>
-								<li>· Le mandamos un link de pago</li>
-								<li>· Una vez recibido el pago, procederemos a despachar su pedido.</li>
+								<li>Debajo del título del productos se encuentra el código de referencia.</li>
+								<li>Con ese código indiquenos la cantidad que desea</li>
+								<li>Le mandamos un link de pago</li>
+								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
 							</ul>
 					</div>
 				</div>

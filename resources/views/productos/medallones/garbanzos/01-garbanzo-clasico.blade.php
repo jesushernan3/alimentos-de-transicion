@@ -73,7 +73,7 @@
 				<div class="tab-content">
 					<div class="tab-pane content-descripcion">
 						<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit dolorem similique, modi exercitationem ea molestias possimus autem? Velit quaerat illo quis pariatur excepturi odit, sequi voluptatem officiis cumque architecto.
+						Receta clasica para tener la menor resistencia al cambio posible
 						</p>
 					</div>
 					<div class="tab-pane content-ingredientes">
@@ -88,10 +88,10 @@
 					<div class="tab-pane content-info">
 						<h5>Como Comprar</h5>
 							<ul>
-								<li>· Debajo del título del productos se encuentra el código de referencia.</li>
-								<li>· Con ese código indiquenos la cantidad que desea</li>
-								<li>· Le mandamos un link de pago</li>
-								<li>· Una vez recibido el pago, procederemos a despachar su pedido.</li>
+								<li>Debajo del título del productos se encuentra el código de referencia.</li>
+								<li>Con ese código indiquenos la cantidad que desea</li>
+								<li>Le mandamos un link de pago</li>
+								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
 							</ul>
 					</div>
 				</div>

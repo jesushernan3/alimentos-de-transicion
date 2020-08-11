@@ -44,12 +44,12 @@
 				<h1 class="title">Garbanzo Criollo</h1>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
+					<p>Receta con tintes de clásico estilo rioplatense, un sabor concocido en un producto no convencional.</p>
 				</div>
 			</div>
-			<div class="column is-full is-full-mobile">
+			<div class="column is-three-quarters is-full-mobile informacion-adicional">
 				<input type="radio" id="descripcion" name="nav-tab">
-				<input type="radio" id="ingredientes" name="nav-tab">
+				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
 				
 				<div class="tabs is-centered is-boxed">
@@ -64,20 +64,25 @@
 				<div class="tab-content">
 					<div class="tab-pane content-descripcion">
 						<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit dolorem similique, modi exercitationem ea molestias possimus autem? Velit quaerat illo quis pariatur excepturi odit, sequi voluptatem officiis cumque architecto.
+							Receta clasica del rio de la plata, un toque de condimentos para sentirse cerca de ese lugar
 						</p>
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>ingrediente 1</li>
-							<li>ingrediente 2</li>
-							<li>ingrediente 3</li>
-							<li>ingrediente 4</li>
-							<li>ingrediente 5</li>
+							<li>Garbanzo</li>
+							<li>Cebolla</li>
+							<li>Fécula de maíz</li>
+							<li>Sal</li>
+							<li>Pimienta</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quaerat commodi fugiat explicabo. Delectus dolore recusandae, hic in nam vitae!</p>
+						<ul>
+								<li>Debajo del título del productos se encuentra el código de referencia.</li>
+								<li>Con ese código indiquenos la cantidad que desea</li>
+								<li>Le mandamos un link de pago</li>
+								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
+						</ul>
 					</div>
 				</div>
 			</div>

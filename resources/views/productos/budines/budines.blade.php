@@ -32,9 +32,7 @@
 							<div class="card-content">
 								<h3 class="title">Vainilla + Algarrobo</h3>
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Budin integral con una leve suma de harina de algarrobo
 								</div>
 							</div>
 						</div>
@@ -53,9 +51,7 @@
 								<h3 class="title">Banana</h3>
 
 								<div class="content">
-									Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-									cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-									ingredientes principales, que los puedes conseguir en...
+									Budin integral con banana
 								</div>
 							</div>
 						</div>

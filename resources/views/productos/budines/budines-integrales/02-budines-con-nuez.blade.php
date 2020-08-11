@@ -56,7 +56,7 @@
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
 				</div>
 			</div>
-			<div class="column is-full is-full-mobile">
+			<div class="column is-three-quarters is-full-mobile informacion-adicional">
 				<input type="radio" id="descripcion" name="nav-tab">
 				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
@@ -78,26 +78,26 @@
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>• Harina integral agroecológia</li>
-							<li>• Banana</li>
-							<li>• Nuez</li>
-							<li>• Azucar mascabo</li>
-							<li>• Aceite de coco</li>
-							<li>• Huevo de campo</li>
-							<li>• Cítrico (limón o naranja)</li>
-							<li>• Pulpa de manzana y zanahoria</li>
-							<li>• Semillas de lino</li>
-							<li>• Bicarbonato de sodio</li>
-							<li>• Escencia de vainilla</li>
+							<li>Harina integral agroecológia</li>
+							<li>Banana</li>
+							<li>Nuez</li>
+							<li>Azucar mascabo</li>
+							<li>Aceite de coco</li>
+							<li>Huevo de campo</li>
+							<li>Cítrico (limón o naranja)</li>
+							<li>Pulpa de manzana y zanahoria</li>
+							<li>Semillas de lino</li>
+							<li>Bicarbonato de sodio</li>
+							<li>Escencia de vainilla</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">
 						<h5>Como Comprar</h5>
 							<ul>
-								<li>· Debajo del título del productos se encuentra el código de referencia.</li>
-								<li>· Con ese código indiquenos la cantidad que desea</li>
-								<li>· Le mandamos un link de pago</li>
-								<li>· Una vez recibido el pago, procederemos a despachar su pedido.</li>
+								<li>Debajo del título del productos se encuentra el código de referencia.</li>
+								<li>Con ese código indiquenos la cantidad que desea</li>
+								<li>Le mandamos un link de pago</li>
+								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
 							</ul>
 					</div>
 				</div>

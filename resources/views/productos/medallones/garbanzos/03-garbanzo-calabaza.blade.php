@@ -39,16 +39,16 @@
 						<div class="swiper-scrollbar"></div>
 				</div>
 			</div>
-			<div class="column  is-three-fifths is-half-mobile">
+			<div class="column  is-three-fifths is-half-mobile informacion-adicional">
 				<h1 class="title">Garbanzo + Calabaza</h1>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
+					<p>Medallon de garbanzo con fécula de maíz para unir, con calabaza y especias.</p>
 				</div>
 			</div>
 			<div class="column is-full is-full-mobile">
 				<input type="radio" id="descripcion" name="nav-tab">
-				<input type="radio" id="ingredientes" name="nav-tab">
+				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
 				
 				<div class="tabs is-centered is-boxed">
@@ -63,20 +63,27 @@
 				<div class="tab-content">
 					<div class="tab-pane content-descripcion">
 						<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit dolorem similique, modi exercitationem ea molestias possimus autem? Velit quaerat illo quis pariatur excepturi odit, sequi voluptatem officiis cumque architecto.
+						Pensado para elevar un toque el nivel nutricional.
 						</p>
 					</div>
 					<div class="tab-pane content-ingredientes">
 						<ul>
-							<li>ingrediente 1</li>
-							<li>ingrediente 2</li>
-							<li>ingrediente 3</li>
-							<li>ingrediente 4</li>
-							<li>ingrediente 5</li>
+							<li>Garbanzo</li>
+							<li>Calabaza</li>
+							<li>Cebolla</li>
+							<li>Curry</li>
+							<li>Avena</li>
+							<li>Fecula de maíz</li>
+							<li>Semillas varias</li>
 						</ul>
 					</div>
 					<div class="tab-pane content-info">
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quaerat commodi fugiat explicabo. Delectus dolore recusandae, hic in nam vitae!</p>
+						<ul>
+								<li>Debajo del título del productos se encuentra el código de referencia.</li>
+								<li>Con ese código indiquenos la cantidad que desea</li>
+								<li>Le mandamos un link de pago</li>
+								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
