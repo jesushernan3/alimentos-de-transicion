@@ -119,9 +119,7 @@
 							<h3 class="title">con Chocolate</h3>
 
 							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
+								Gran variedad de galletas con chocolate
 							</div>
 						</div>
 					</div>
@@ -145,9 +143,7 @@
 							<h3 class="title">Integrales</h3>
 
 							<div class="content">
-								Esta receta vegetariana es sumamente sencilla y rápida de hacer, no se necesita ser un chef o amante de la
-								cocina para hacerla, ya que no nos tomará ni 15 minutos en prepararla y solo contiene un par de
-								ingredientes principales, que los puedes conseguir en...
+								Budines con harinas integrales con sabores multiples
 							</div>
 						</div>
 					</div>

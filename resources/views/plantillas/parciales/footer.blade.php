@@ -10,9 +10,9 @@
       <div class="column is-one-quarter is-one-third-tablet is-full-mobile">
         <h4>Atención al Cliente</h4>
         <ul>
-          <li><a href="/preguntas-frecuentes">Preguntas Frecuentes</a></li>
-          <li>Como Funcionamos</li>
-          <li>Delivery</li>
+          <li><a href="{{route('preguntas-frecuentes')}}">Preguntas Frecuentes</a></li>
+          <li><a href="{{route('como-funcionamos')}}">Como Funcionamos</a></li>
+          <li><a href="{{route('delivery')}}">Delivery</a></li>
         </ul>
       </div>
       <div class="column is-one-quarter is-one-third-tablet is-full-mobile">

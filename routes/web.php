@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\FormularioDeContacto;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home')->name('home');
 Route::view('productos', 'productos')->name('productos');
 Route::view('acerca', 'acerca')->name('acerca');
-Route::view('preguntas-frecuentes', 'atencion/preguntas-frecuentes')->name('preguntas-frecuentes');
 Route::view('contacto', 'contacto')->name('contacto');
 Route::post('contacto', 'FormularioDeContacto@store');
+
+// ATENCION AL CLIENTE
+Route::view('preguntas-frecuentes', 'atencion/preguntas-frecuentes')->name('preguntas-frecuentes');
+Route::view('como-funcionamos', 'atencion.como-funcionamos')->name('como-funcionamos');
+Route::view('delivery', 'atencion.delivery')->name('delivery');
 
 // RUTA A PRODUCTOS
 // ·········································· MEDALLONES - Garbanzos

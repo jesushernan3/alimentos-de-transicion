@@ -20,11 +20,10 @@
 		    
     <div class="columns section">
 			<div class="column  is-half is-half-mobile">
-
-
 				{{-- <figure class="image is-fullwidth">
 					<img src="/img/productos/medallones/medallones-garbanzos.jpg">
 				</figure> --}}
+
 				<!-- Slider main container PRUEBA SLIDER SWIPER.JS-->
 				<div class="swiper-container">
 						<!-- Additional required wrapper -->

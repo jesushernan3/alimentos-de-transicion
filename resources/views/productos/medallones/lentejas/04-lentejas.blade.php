@@ -10,7 +10,7 @@
 					Medallones de Lentejas
 			</h2>
 			<h1 class="title">
-					Medallon de Lentejas + Especias
+					con Curry
 			</h1>
 			
 			</div>
@@ -20,9 +20,30 @@
 		    
     <div class="columns section">
 			<div class="column  is-two-fifths is-half-mobile">
-				<figure class="image is-fullwidth">
+				{{-- <figure class="image is-fullwidth">
 					<img src="/img/productos/medallones/medallones-garbanzos.jpg">
-				</figure>
+				</figure> --}}
+
+				<!-- Slider main container PRUEBA SLIDER SWIPER.JS-->
+				<div class="swiper-container">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/01.garbanzo-clasico.jpg')}}" alt=""></div>
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/02.garbanzo-clasico.jpg')}}" alt=""></div>
+								<div class="swiper-slide"><img src="{{asset('img/productos/medallones/de-garbanzo/clasico/03.garbanzo-clasico.jpg')}}" alt=""></div>
+								...
+						</div>
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+
+						<!-- If we need scrollbar -->
+						<div class="swiper-scrollbar"></div>
+				</div>
 			</div>
 			<div class="column  is-three-fifths is-half-mobile">
 				<h1 class="title">Lentaja + Especias</h1>
@@ -31,9 +52,9 @@
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tenetur est qui doloribus corrupti consequuntur ut aut quas distinctio neque dolorum nesciunt provident a magnam adipisci laborum, alias laudantium doloremque.</p>
 				</div>
 			</div>
-			<div class="column is-full is-full-mobile">
+			<div class="column is-three-quarters is-full-mobile informacion-adicional">
 				<input type="radio" id="descripcion" name="nav-tab">
-				<input type="radio" id="ingredientes" name="nav-tab">
+				<input type="radio" id="ingredientes" name="nav-tab" checked>
 				<input type="radio" id="info" name="nav-tab">
 				
 				<div class="tabs is-centered is-boxed">
