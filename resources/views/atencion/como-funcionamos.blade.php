@@ -10,21 +10,23 @@
     </div>
   </div>
 </section>
-<main class="container">
+<main class="container atencion-al-cliente">
   <p class="section has-text-centered is-size-5">
-    Seccion para sacar dudas lo más rapido posible
-  </p>
+Nosotros te brindamos la oportunidad de hacer más simple una transición hacía una forma más saludable de nutrición  </p>
 
   <div class="hero">
     <div class="tile">
-      <div class="tile has-text">
+      <div class="tile has-text is-4">
         <h3>Funcionamos asi</h3>
-        <p>aca va a ir descripcion como Funcionamos</p>
       </div>
-      <div class="tile">
-        <figure class="image is-half">
-          <img class="is-half" src="/img/acerca/philosophy-1-heritage.jpg" alt="">
-        </figure>
+      <div class="tile is-8">
+          <ul>
+            <li>Navega por nuestros productos.</li>
+            <li>El producto que quieras, nos envias por email o whatsapp el codigo y cantidad</li>
+            <li>Te enviamos link de pago, o datos de transferencia bancaria</li>
+            <li>Una vez realizado el pago, procedemos al procesamiento de tu pedido</li>
+            <li>Coordinamos dia de entrega, lunes o viernes y listo</li>
+          </ul>
       </div>
     </div>
   </div>

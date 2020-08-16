@@ -66,7 +66,7 @@
 								</figure>
 							</div>
 							<div class="card-content">
-								<h3 class="title">Hindu</h3>
+								<h3 class="title">Moschata</h3>
 
 								<div class="content">
 									Para aquellos que quieran un sabor más dulce en la comida.

@@ -10,21 +10,22 @@
     </div>
   </div>
 </section>
-<main class="container">
+<main id="delivery" class="container atencion-al-cliente">
   <p class="section has-text-centered is-size-5">
-    Seccion para sacar dudas lo más rapido posible
+    Tratamos de mantener el máximo de eficiencia para todas las entregas dentro del marco disponible. Te propodrionamos dos formatos para la entrega de producto para pedidos a partir de $800
   </p>
 
   <div class="hero">
     <div class="tile">
-      <div class="tile has-text">
-        <h3>Funcionamos asi</h3>
-        <p>aca va a ir descripcion como Funcionamos</p>
+      <div class="tile has-text is-4">
+        <h3>Método de entrega</h3>
       </div>
-      <div class="tile">
-        <figure class="image is-half">
-          <img class="is-half" src="/img/acerca/philosophy-1-heritage.jpg" alt="">
-        </figure>
+      <div class="tile is-8">
+        <ul>
+          <li>En el domicio de producción</li>
+          <li>Lunes y Viernes entre 14:00 y 19:00</li>
+        </ul>
+        <p>Los pedido se toman hasta 24hs hábiles antes del dia de entrega es decir, si tu zona de entrega es los lunes, van a entrar todos los pedidos que lleguen hasta el viernes anterior al mediodia.</p>
       </div>
     </div>
   </div>

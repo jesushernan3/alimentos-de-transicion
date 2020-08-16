@@ -7,7 +7,7 @@
 			</figure>
 			<div class="container">
 				<h2 class="subtitle">Medallones de Garbanzo</h2>
-				<h1 class="title">Medallon de Garbanzo + Calabaza</h1>
+				<h1 class="title">Garbanzo Moschata</h1>
 			</div>
 	</div>
 </section>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div class="column  is-three-fifths is-half-mobile informacion-adicional">
-				<h1 class="title">Garbanzo + Calabaza</h1>
+				<h1 class="title">Garbanzo Moschata</h1>
 				<div class="precio">$500</div>
 				<div class="producto-resumen">
 					<p>Medallon de garbanzo con fécula de maíz para unir, con calabaza y especias.</p>

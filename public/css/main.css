@@ -348,21 +348,23 @@ h3.after-title-icon {
 	padding-bottom: 4rem;
 	padding-top: 4rem;
 }
-
 .card {
     color: #777;
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.4), 0 0px 0 1px rgba(10, 10, 10, 0.1);
 }
-
 .card .title {
     font-size: 1.3rem;
 }
 
 /* Vista - Producto
 ==================================*/
+.title:not(:last-child) {
+    margin-bottom: unset;
+}
 .precio {
     color: #f98b60;
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 /*··························· Producto - Tabs  */
@@ -410,6 +412,26 @@ input[type="radio"],
     list-style: circle;
 }
 
+/* Vistas ATENCION AL CLIENTE
+============================= */
+.atencion-al-cliente .tile.is-8 {
+        flex-direction: column;
+    }
+.atencion-al-cliente .tile.is-8 ul {
+	list-style: disclosure-closed;
+}
+.atencion-al-cliente .tile.is-8 li {
+    margin: 1rem 0;
+}
+.respuesta{
+    font-weight: bold;
+}
+
+/* Vista DELIVERY
+============================== */
+#delivery .tile.is-8 ul {
+    text-transform: uppercase;
+}
 /*================================
  Footer
 ==================================*/
@@ -514,10 +536,10 @@ footer .container {
 /*================================
  Media Queries
 ==================================*/
-@media (max-width: 1178px
 
-    /* Widescreen - Breakpoint */
-) {
+/* :::::::::: Widescreen Breakpoint 1178px :::::::::: */
+@media (max-width: 1178px) 
+{
     .hero .image img {
         width: unset;
         max-width: unset;
@@ -542,10 +564,10 @@ footer .container {
     }
 }
 
-@media (max-width: 960px
 
-    /* Desktop - Breakpoint */
-) {
+/* :::::::::: Desktop Breakpoint 960 :::::::::: */
+@media (max-width: 960px) 
+{
     main .columns {
         display: flex;
     }
@@ -563,9 +585,9 @@ footer .container {
     }
 }
 
-@media (max-width: 769px
-    /* Table - Breakpoint */
-) {
+/* :::::::::: Table Breakpoint 960 :::::::::: */
+@media (max-width: 769px)
+{
     .nav-mobile {
         display: block;
     }
@@ -648,6 +670,18 @@ footer .container {
     .products-banner .subtitle {
         font-size: 1.3rem;
     }
+    .atencion-al-cliente .tile.has-text.is-4 {
+        text-align: center;
+    }
+    .atencion-al-cliente .tile ul {
+        text-transform: uppercase;
+    }
+    .respuesta {
+        text-transform: initial;
+    }
+    .atencion-al-cliente > .hero > .tile .tile {
+        padding: 15px;
+    }
 
     /*··························· Categories  769*/
 
@@ -665,13 +699,10 @@ footer .container {
     }
 }
 
-@media (max-width: 474px
+/* :::::::::: Small Mobile - Breakpoint :::::::::: */
 
-    /* Small Mobile - Breakpoint */
-) {
-
-    /*··························· Nav Bar  */
-
+@media (max-width: 474px)
+{
     /*··························· Contenido  */
     main .hero {
         margin: 1rem;
