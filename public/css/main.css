@@ -358,15 +358,28 @@ h3.after-title-icon {
 
 /* Vista - Producto
 ==================================*/
-.title:not(:last-child) {
+#producto .title:not(:last-child) {
     margin-bottom: unset;
 }
-.precio {
+#producto .precio {
     color: #f98b60;
-    margin-bottom: 1rem;
     font-size: 2rem;
+    line-height: 1;
+    margin-top: 1rem;
 }
-
+#producto .producto-resumen p {
+	margin-bottom: 0.5rem;
+}
+#producto .cantidad {
+    margin-bottom: 2rem;
+}
+.envio-gratis {
+	background-color: #f98b60;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
 /*··························· Producto - Tabs  */
 input[type="radio"],
 .tab-pane {
@@ -409,7 +422,7 @@ input[type="radio"],
 }
 .tab-content li {
     margin-left: 15px;
-    list-style: circle;
+    list-style: disclosure-closed;
 }
 
 /* Vistas ATENCION AL CLIENTE

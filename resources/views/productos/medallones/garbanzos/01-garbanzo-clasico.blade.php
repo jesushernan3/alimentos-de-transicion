@@ -16,7 +16,7 @@
 			</div>
 	</div>
 </section>
-<main class="container">
+<main id="producto" class="container">
 		    
     <div class="columns section">
 			<div class="column  is-half is-half-mobile">
@@ -50,9 +50,14 @@
 			<div class="column  is-half is-half-mobile">
 				<h1 class="title">Garbanzo Clásico</h1>
 				<div class="sku"><span>Cod.Referencia:</span> ref1010</div>
-				<div class="precio">$500</div>
+				<div class="precio">$200</div>
+				<div class="cantidad"><span>Pack de:</span> 4 unidades</div>
 				<div class="producto-resumen">
-					<p>Medallones de garbanzos con mínimo de especias, receta simple, son pocos ingredientes: ajo, sal y Pimineta</p>
+					<p>Medallones de garbanzo, con aproximadamente 150gr. de producto neto, casi un 70% más que el promedio que se vende en las dietéticas</p>
+					<p>Fécula de maíz para unir, con ajo, sal y pimienta. Todos los  ingredientes están previamente cocidos. Sin conservantes, ni saborizantes.</p>
+					<p>100% naturales. Sin harinas, sin trigo, sin soja, sin grasas trans.</p>
+					<p class="envio-gratis">Envios gratis a partir de pedidos de $600</p>
+					<p>Si tenes dudas sobre un producto podes consultarnos por Whatsapp: 54112171-5239</p>
 				</div>
 			</div>
 			<div class="column is-three-quarters is-full-mobile informacion-adicional">
@@ -80,6 +85,7 @@
 							<li>Garbanzo</li>
 							<li>Ajo</li>
 							<li>Fécula de maíz</li>
+							<li>Avena</li>
 							<li>Sal</li>
 							<li>Pimineta</li>
 						</ul>
@@ -92,6 +98,18 @@
 								<li>Le mandamos un link de pago</li>
 								<li>Una vez recibido el pago, procederemos a despachar su pedido.</li>
 							</ul>
+
+						<h5>Formas de pago</h5>
+						<ul>
+							<li>Mercado Pago</li>
+							<li>Transferencia bancaria</li>
+							<li>Efectivo Rapipago, Pagofacil</li>
+						</ul>
+
+						<h5>Envíos</h5>
+						<p>Solo en C.A.B.A.</p>
+						<P>Dias de entrega: Lunes y Viernes</P>
+
 					</div>
 				</div>
 			</div>
